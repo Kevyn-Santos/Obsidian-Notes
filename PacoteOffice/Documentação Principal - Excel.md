@@ -100,5 +100,35 @@ O tamanho de uma célula pode ser modificado ao arrastar o índice da coluna par
 
 ### Fórmulas Básicas
 
-As formulas básicas em Excel são:
+Antes das formulas propriamente ditas falemos dos operadores:
+
+"+" é para adição
+"-" é para Subtração
+" * " é para Multiplicação
+" / " é para Divisão
+" ** " é para Potenciação
+
+Diferente do Power BI, não é possível utilizar && ou || para as condições lógicas, sendo necessário utilizar as formulas "E" e "OU"
+
+As formulas básicas podem ser divididas em alguns grupos, como formulas matemáticas, formulas de contagem e formulas condicionais.
+
+As formulas matemáticas básicas são: SOMA, MULT, MÁXIMO, MÍNIMO, MÉDIA; Que executam as respectivas operações em duas ou mais células.
+
+As fórmulas de contagem são: CONT.NÚM, CONT.VALORES, CONTAR.VAZIO; elas contam, respectivamente, células que possuem apenas números, células que possuem qualquer valor, e células que não possuem nenhum valor.
+
+As fórmulas condicionais são, num geral: SE(S), E, OU, CONT.SE(S), SOMA.SE(S), SEERRO. Elas serão tratadas mais afundo na parte de de condições, mas num geral, elas verificam se uma condição é verdadeira, se for verdadeira executam uma ação, se for falsa executam outra. As formulas E/OU servem para adicionar mais de uma condição, a primeira será verdadeira quando todas as condições forem verdadeiras, e a segunda será verdadeira se ao menos uma for verdadeira.
+
+#### Referencias de células
+
+É possível criar formulas referenciando células na mesma aba ou em abas diferentes, para isso basta selecionar as células desejadas, mas, se quiser referenciar outra aba é necessário colocar o nome dela antes da célula desejada. Além disso é possível copiar e colar as formulas para as outras células, o Excel manterá o intervalo e o acompanhará, a menos que as células sejam trancadas, movidas, ou recortadas e coladas em outro lugar.
+
+Esse acompanhamento é chamado de referencia relativa, pois os valores são relativos á célula, ou seja se o ultimo muda o primeiro muda também. Em contraponto temos a referencia Absoluta , ou trancamento, que diz para o Excel que certas células sempre serão referencia, não importando se a fórmula mudar de lugar, isso é útil quando se tem um valor constante nas fórmulas. Para trancar uma célula basta colocar um "$" antes da linha e coluna daquela célula na barra de fórmulas, isso pode ser feito utilizando o "F4" com o nome da célula selecionada.
+
+*Célula trancada(Referencia absoluta)*
+![[Pasted image 20250101193826.png]]
+
+*Célula não trancada(Referencia Relativa)*
+![[Pasted image 20250101193942.png]]
+
+### Colar Especial
 
