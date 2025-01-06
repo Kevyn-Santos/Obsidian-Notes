@@ -656,3 +656,12 @@ Código para criar Base de Calendário e Datas (Dentro do Power Query!!):
 
 ### Como criar Rankings
 
+
+### Scroller
+
+O scroller é um visual personalizado do Power Bi, ele permite a criação de uma espécie de letreiro que passa as informações de venda da empresa e indica se os valores foram maiores ou menores do que o uma meta. O Scroller não é nativo do Power BI, ele foi criado e deve ser baixado como um novo visual. 
+
+Para sua confecção ele pede três informações principais, como os valores serão divididos(Category), os valores que serão mostrados(Measure Absolute), a meta para comparação dos valores(Measure Deviation).
+
+![[Pasted image 20250104125549.png]]
+
