@@ -132,3 +132,22 @@ Esse acompanhamento é chamado de referencia relativa, pois os valores são rela
 
 ### Colar Especial
 
+São diversas formas de colagem que o Excel disponibiliza, para acessa-lo é necessário copiar um texto> clicar com o botão direito> colar Especial e selecionar uma opção, ou, utilizar o botão de colagem na tela inicial.
+
+Os tipos principais de colagem especial são:
+a colagem normal;
+a colagem somente das fórmulas(neste caso ele vai acompanhar a referencia);
+A colagem das fórmulas e da formatação dos números;
+A colagem mantendo a formatação original;
+A colagem sem bordas;
+A colagem mantendo a largura da coluna original;
+A colagem transposta(neste caso ele transforma linhas em colunas e vice-versa);
+A colagem somente de valores(cola o valor bruto, sem manter formulas ou formatação ), de valores e formatação de numero(cola o valor bruto mantendo a formatação original, mas não cola fórmulas) e valores e a formatação original(mantém a formatação do numeros eo estilo das células,  mas ao cola a fórmula);
+A colagem somente da formatação, sem os valores;
+A colagem com vínculo(cola os valores brutos mantendo vínculo com as células originais, ou seja, a mudança das originais ainda muda a colagem );
+A colagem de imagem(transforma as células selecionadas em imagens) e a de imagem com vinculo(transforma as células selecinadas m imagens, mas mantem um vinculo com as originais, de forma que a mudanca delas altere os valores na imagem).
+
+No mais, é possível utilizar operações no colar Especial, assim ele cola os valores originais por cima dos outros valores de outra célula e executa alguma operação básica na colagem
+
+
+

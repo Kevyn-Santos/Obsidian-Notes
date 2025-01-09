@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "8e44bac6b04d9391",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc38b0bd066031d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b53e5edff006588f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PacoteOffice/Documentação Principal - Excel.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Documentação Principal - Excel"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76ff71f98fbe421d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "dd92fa02ca99a23c",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "75bccd84bb266cb2",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "b9885e5e01a3fc31",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "2b162e79fc1e5caf",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "f2a892ac5d2b09c4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f37ed82d9dcaa758",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "PacoteOffice/Documentação Principal - Excel.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": true,
+            "searchQuery": "Git ",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "c7f3fb8e86a320b9",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "PacoteOffice/Documentação Principal - Excel.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "678a44be388f8549",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "PacoteOffice/Documentação Principal - Excel.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "c505cb1d2b8ab47b",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "b53e5edff006588f",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "PacoteOffice/Documentação Principal - Excel.md",
+    "Images/Excel/Pasted image 20250104125549.png",
+    "Images/Excel/Pasted image 20250101235707.png",
+    "Images/Excel/Pasted image 20250101235648.png",
+    "Images/Excel/Pasted image 20250101193942.png",
+    "Images/Excel/Pasted image 20250101193826.png",
+    "/PacoteOffice/Documentação Principal - PowerBI.md",
+    "/Images/Excel/Pasted image 20250104125549.png",
+    "/Images/Excel/Pasted image 20250101235707.png",
+    "/Images/Excel/Pasted image 20250101235648.png",
+    "/Images/Excel/Pasted image 20250101193942.png",
+    "/Images/Excel/Pasted image 20250101193826.png",
+    "PacoteOffice/Documentação Principal - PowerBI.md",
+    "PacoteOffice/Documentação Principal - PowerPoint.md",
+    "README.md",
+    "LinguagensDeProgramação/PHP_Path.canvas",
+    "LinguagensDeProgramação/Documentação Principal - SEO.md",
+    "LinguagensDeProgramação/Documentação Principal - Python.md",
+    "LinguagensDeProgramação/Documentação Principal - PHP.md",
+    "LinguagensDeProgramação/Documentação Principal - NodeJS.md",
+    "LinguagensDeProgramação/Documentação Principal - MySQL.md",
+    "LinguagensDeProgramação/Documentação Principal - CSharp.md",
+    "LinguagensDeProgramação/Documentação Principal - CMD.md",
+    "LinguagensDeProgramação/Documentação Principal - C.md",
+    "LinguagensDeProgramação/Documentação Principal - C++.md",
+    "LinguagensDeProgramação/Documentação Principal - Angular.md",
+    "LinguagensDeProgramação/Algoritmos e Estruturas de Dados.md",
+    "LICENSE",
+    "Images/PowerBi/Documentação Principal - AutoCad.md",
+    "Coisas para aprender.md",
+    "PacoteOffice",
+    "LinguagensDeProgramação",
+    "Images/PowerBi",
+    "Images/Excel",
+    "Images"
+  ]
+}
