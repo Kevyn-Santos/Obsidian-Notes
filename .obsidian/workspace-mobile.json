@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bc38b0bd066031d9",
+        "id": "db502546877089f4",
         "type": "tabs",
         "children": [
           {
-            "id": "b53e5edff006588f",
+            "id": "9ee9b2470e19e74c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -158,10 +158,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b53e5edff006588f",
+  "active": "9ee9b2470e19e74c",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Teste.md",
     "PacoteOffice/Documentação Principal - Excel.md",
+    "Untitled.md",
     "Images/Excel/Pasted image 20250104125549.png",
     "Images/Excel/Pasted image 20250101235707.png",
     "Images/Excel/Pasted image 20250101235648.png",
