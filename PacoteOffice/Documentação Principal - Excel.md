@@ -149,7 +149,7 @@ A colagem de imagem(transforma as células selecionadas em imagens) e a de image
 
 No mais, é possível utilizar operações no colar Especial, assim ele cola os valores originais por cima dos outros valores de outra célula e executa alguma operação básica na colagem.
 
-## conceitos intermediários
+## Conceitos Intermediários
 
 ### fórmula SE
 
@@ -169,4 +169,38 @@ Já foi informado o uso das funções E e OU, mas em um geral, o primeiro retorn
 E/OU(valor lógico 1; valor logico2;..)
 
 No mais, a função SE possui outras variantes, como a SEERRO, onde a condição é se há um erro na célula, e os resultados são como a célula será tratada se o erro existir ou não.
+
+### formatação condicional
+
+
+### funções de data
+
+
+
+### filtros, classificação, validação de dados e definição de nomes
+
+
+### gráficos 
+
+
+### fórmulas avançadas 
+
+
+### Outros
+
+
+
+## conceitos avançados
+
+### Tabelas Dinâmicas
+
+
+
+### Trabalho com metas
+
+
+### Macros e VBA
+
+
+### Power Query
 

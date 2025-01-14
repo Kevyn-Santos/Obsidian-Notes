@@ -1,4 +1,5 @@
 
+# PACOTE OFFICE
 
 [[Documentação Principal - Excel]]
 
@@ -6,7 +7,9 @@
  
 [[Documentação Principal - PowerPoint]]
 
-[[Documentação Principal - AutoCad]]
+[[Documentação Principal - Power Query]]
+
+# PROGRAMAÇÃO 
 
 [[Algoritmos e Estruturas de Dados]]
 
@@ -29,3 +32,7 @@
 [[Documentação Principal - CMD]]
 
 [[Documentação Principal - SEO]]
+
+# OUTROS 
+
+[[Documentação Principal - AutoCad]]
