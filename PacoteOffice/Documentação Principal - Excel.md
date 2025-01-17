@@ -1,3 +1,4 @@
+#pacoteOffice 
 ## Conceitos Básicos
 
 ### Abas do Excel
@@ -142,12 +143,33 @@ A colagem mantendo a formatação original;
 A colagem sem bordas;
 A colagem mantendo a largura da coluna original;
 A colagem transposta(neste caso ele transforma linhas em colunas e vice-versa);
-A colagem somente de valores(cola o valor bruto, sem manter formulas ou formatação ), de valores e formatação de numero(cola o valor bruto mantendo a formatação original, mas não cola fórmulas) e valores e a formatação original(mantém a formatação do numeros eo estilo das células,  mas ao cola a fórmula);
+A colagem somente de valores(cola o valor bruto, sem manter formulas ou formatação ), de valores e formatação de numero(cola o valor bruto mantendo a formatação original, mas não cola fórmulas) e valores e a formatação original(mantém a formatação do números e o estilo das células,  mas ao cola a fórmula);
 A colagem somente da formatação, sem os valores;
 A colagem com vínculo(cola os valores brutos mantendo vínculo com as células originais, ou seja, a mudança das originais ainda muda a colagem );
-A colagem de imagem(transforma as células selecionadas em imagens) e a de imagem com vinculo(transforma as células selecinadas m imagens, mas mantem um vinculo com as originais, de forma que a mudanca delas altere os valores na imagem).
+A colagem de imagem(transforma as células selecionadas em imagens) e a de imagem com vinculo(transforma as células selecionadas em imagens, mas mantem um vinculo com as originais, de forma que a mudança delas altere os valores na imagem).
 
-No mais, é possível utilizar operações no colar Especial, assim ele cola os valores originais por cima dos outros valores de outra célula e executa alguma operação básica na colagem
+No mais, é possível utilizar operações no colar Especial, assim ele cola os valores originais por cima dos outros valores de outra célula e executa alguma operação básica na colagem.
+### Autopreenchimento e reconhecimento de padrões
 
+O Excel possui uma ferramenta de autopreenchimento, ela preenche automaticamente baseado em algumas listas prontas mas é possível criar uma lista personalizada para o preenchimento, e além disso o Excel pode reconhecer padrões de números quando se tem mais de uma célula numérica preenchida.
 
+Para executar o autopreenchimento basta preencher uma ou mais células com algum valor e arrastar o canto da célula para algum lado e o Excel tentará encontrar um padrão para seguir, ao segurar CTRL no momento de arrastar, o Excel vai somar os números em uma progressão unitária ignorando os padrões que encontrar(Ou seja, vai somar de um em um ignorando os padrões) , ou ele vai copiar o mesmo texto da célula nas células seguintes.
+Para criar uma lista personalizada de padrão basta seguir o caminho: Arquivo> configurações/opções> Avançado> Editar listas personalizadas.
 
+Por fim, o Excel pode utilizar o reconhecimento de padrões para fazer separação nos textos, ele encontra um padrão nos textos das células adjacentes e verifica se eles podem ser separados, se puderem ele da a opção de seguir diretamente com o texto extraído:
+
+![[Pasted image 20250111204811.png]]
+
+Essa ferramenta também é chamada de preenchimento rápido
+
+### Fórmulas de manipulação de textos
+
+Uma das principais formas de juntar textos no Excel é utilizando o símbolo "&", igual é usado no Power BI, isso junta os textos de células esparsas em uma outra célula, é ainda possível utilizar isso em conjunto com um texto que já esta na célula, mas para isso o texto deve estar dentro de uma formula e deve ser colocado entre aspas. No fundo isso funciona como a concatenação de strings em alguma linguagem de programação:
+
+![[Pasted image 20250111213058.png]]
+
+Outra forma de fazer é utilizando a função CONCAT, funciona da mesma forma, mas os diferentes textos devem ser atribuídos como diferentes parâmetros na função:
+
+![[Pasted image 20250111213303.png]]
+
+No mais temos fórmulas de extração de texto (como DIREITA, ESQUERDA, EXT.TEXTO), e fórmulas de modificação de texto(Como MAIUSCULA, MINUSCULA, MUDAR).
