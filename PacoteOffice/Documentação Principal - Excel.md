@@ -149,6 +149,27 @@ A colagem com vínculo(cola os valores brutos mantendo vínculo com as células 
 A colagem de imagem(transforma as células selecionadas em imagens) e a de imagem com vinculo(transforma as células selecionadas em imagens, mas mantem um vinculo com as originais, de forma que a mudança delas altere os valores na imagem).
 
 No mais, é possível utilizar operações no colar Especial, assim ele cola os valores originais por cima dos outros valores de outra célula e executa alguma operação básica na colagem.
+## Conceitos Intermediários
+
+### fórmula SE
+
+A fórmula se verifica se uma condição é verdadeira ou falsa e retorna algo dependendo do resultado lógico. Ela pode ser escrita junto das fórmulas E e OU para verificar mais de uma condição lógica e podem ser escritas outras funções SE uma dentro da outra, como se fosse um else IF.
+
+Função SE: 
+SE(condição; valor se verdadeiro; valor se falso)
+
+Função se com E ou OU: 
+SE(E/OU(valor lógico 1; valor logico2;..); valor se verdadeiro; valor se falso)
+
+Função SE aninhada: 
+SE(condição; valor verdadeiro; SE(condição; valor verdadeiro;..))
+
+Já foi informado o uso das funções E e OU, mas em um geral, o primeiro retornará verdadeiro caso todas as condições sejam verdadeiras, caso contrário retornara falso; o segundo retornara verdadeiro se ao menos uma condição for verdadeira, e retornara falso se todas forem falsas.
+
+E/OU(valor lógico 1; valor logico2;..)
+
+No mais, a função SE possui outras variantes, como a SEERRO, onde a condição é se há um erro na célula, e os resultados são como a célula será tratada se o erro existir ou não.
+
 ### Autopreenchimento e reconhecimento de padrões
 
 O Excel possui uma ferramenta de autopreenchimento, ela preenche automaticamente baseado em algumas listas prontas mas é possível criar uma lista personalizada para o preenchimento, e além disso o Excel pode reconhecer padrões de números quando se tem mais de uma célula numérica preenchida.
