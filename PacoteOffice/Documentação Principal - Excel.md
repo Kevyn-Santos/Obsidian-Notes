@@ -282,6 +282,7 @@ O ultimo parâmetro é opcional, sendo usado somente se o intervalo principal n�
 
 ![[Pasted image 20250118183602.png]]
 
+Ha uma variação desta formula chamada SOMASES, ela permite a Soma se for atendida mais de uma condição
 #### MÉDIASE
 
 Funciona da mesma forma que a SOMASE, inclusive com o parâmetro opcional, a diferencia é que a MÉDIASE retorna a média de um intervalo de valores.
