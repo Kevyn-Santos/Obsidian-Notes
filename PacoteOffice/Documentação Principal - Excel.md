@@ -162,7 +162,7 @@ Função se com E ou OU:
 SE(E/OU(valor lógico 1; valor logico2;..); valor se verdadeiro; valor se falso)
 
 Função SE aninhada: 
-SE(condição; valor verdadeiro; SE(condição; valor verdadeiro;..))
+SE(condição; valor verdadeiro;SE(condição; valor verdadeiro;..))
 
 Já foi informado o uso das funções E e OU, mas em um geral, o primeiro retornará verdadeiro caso todas as condições sejam verdadeiras, caso contrário retornara falso; o segundo retornara verdadeiro se ao menos uma condição for verdadeira, e retornara falso se todas forem falsas.
 
@@ -194,3 +194,99 @@ Outra forma de fazer é utilizando a função CONCAT, funciona da mesma forma, m
 ![[Pasted image 20250111213303.png]]
 
 No mais temos fórmulas de extração de texto (como DIREITA, ESQUERDA, EXT.TEXTO), e fórmulas de modificação de texto(Como MAIUSCULA, MINUSCULA, MUDAR).
+
+
+
+### Gráficos
+
+Os gráficos podem ser inclusos em juma planilha a partir da guia "inserir", aqui podem ser aplicados gráficos simples ou dinâmicos.
+
+![[Pasted image 20250118174346.png]]
+
+**Os gráficos comuns possuem três campos, O intervalo de dados do gráfico, as series do gráfico, e as categorias do gráfico. O intervalo de dados é a matriz de onde os dados serão retirados, as series são os valores dos gráficos e as categorias são as divisões do gráfico(Como se fossem as legendas).**
+
+![[Pasted image 20250118174601.png]]
+
+Ao criar um gráfico, ficam disponíveis as guias de Design e formatação do mesmo, na primeira é possível modificar os elementos do gráfico, seus estilos, ou a fonte de dados e tipo de gráfico.
+
+![[Pasted image 20250118174802.png]]
+
+Na área de formatação, é possível estilizar cada componente do gráfico, a mudança do componente é feita na caixa de seleção no canto superior esquerdo.
+
+![[Pasted image 20250118175011.png]]
+
+Cada gráfico possuem elementos diferentes para modificação, mas os principais são os títulos, rótulos de dados, e valores de série e coluna. A adição ou remoção de cada elemento é feita no campo "Adicionar elemento de gráfico".
+
+![[Pasted image 20250118175149.png]]
+
+#### gráficos dinâmicos
+
+Os gráficos dinâmicos funcionam da mesma forma que uma tabela dinâmica, e eles permitem uma estruturação mais personalizada dos gráficos. Eles podem ser aplicados na guia "inserir"
+
+
+Na sua criação são apresentados todos os conjuntos de dados do intervalo, e eles devem ser atribuídos para alguma das caixas disponíveis: Filtros, séries, categorias, ou valores. E fica disponível a guia de "*analise do gráfico dinâmico*", que permite a criação de segmentação de dados e linhas do tempo, a atualização e seleção de fonte de dados e a criação de formulas e relacionamentos. E ao se criar um gráfico dinâmico, é criada uma tabela dinâmica junto. As demais guias e funcionalidades continuam as mesmas.
+
+![[Pasted image 20250118180958.png]]
+
+![[Pasted image 20250118181014.png]]
+
+
+### Fórmulas Avançadas
+
+As principais fórmulas avançadas trabalham de maneira próxima com as condições e a busca em matrizes, são elas: PROCV, PROCH, PROCX, CONT.SE(S), SOMASE(S), MÉDIASE, e as fórmulas matriciais.
+
+#### PROCV
+
+A fórmula PROCV seleciona um dado em uma célula na coluna mais a esquerda de uma matriz, e depois retorna seu dado correspondente em X colunas a direita dela dentro da matriz. note-se que, a formula não trata da coluna inteira, apenas de uma parte selecionada, que é a matriz.
+
+PROCV(dado de busca; Matriz de busca; Nº da coluna onde esta o dado correspondente; se a busca deve ser exata ou aproximada(0 ou 1)).
+
+![[Pasted image 20250118181807.png]]
+
+#### PROCH
+
+Funciona da mesma forma que o PROCV, porem ao invés de procurar em colunas, a busca é feita em linhas, portanto ele Selecionará um dado na primeira linha da matriz e retornará outro da mesma coluna mas X linhas abaixo, contando a partir da primeira linha.
+
+PROCH(dado de busca; Matriz de busca; Nº da linha onde esta o dado correspondente; se a busca deve ser exata ou aproximada(0 ou 1)).
+
+![[Pasted image 20250118182030.png]]
+
+#### PROCX
+
+A função PROCX procura os valores valores correspondentes de uma matriz em outra matriz, e permite a personalização das mensagens de erro, da objetividade da procura, e do tipo de procura(Se será binário ou não).
+
+Um ponto importante, o valor a ser procurado esta no parâmetro "matriz de busca", enquanto a possível resposta a este parâmetro esta em "Matriz de resposta", o que vai ser procurado em atriz de busca é definido em "Valor de busca".
+
+PROCX(Valor de busca; matriz de busca; matriz de resposta; mensagem se não for encontrado; exatidão da pesquisa; tipo de pesquisa).
+
+![[Pasted image 20250118182956.png]]
+
+
+#### CONT.SE
+
+A formula CONT.SE fará a contagem de certas linhas dada uma condição, esta pode ser definida em uma célula ou diretamente na fórmula, com o valor a ser considerado para contagem.
+
+CONT.SE(Intervalo de conta; critério para a conta)
+
+![[Pasted image 20250118183311.png]]
+
+Ha uma variação desta formula chamada CONT.SES, ela permite a contagem se for atendida mais de uma condição
+
+#### SOMASE
+
+A função SOMASE somara os valores de um intervalo baseado em uma condição, esta pode ser definida em uma célula ou diretamente na fórmula.
+
+SOMASE(Intervalo; CRITERIO; Intervalo de soma)
+
+O ultimo parâmetro é opcional, sendo usado somente se o intervalo principal não contiver os valores para soma.
+
+![[Pasted image 20250118183602.png]]
+
+#### MÉDIASE
+
+Funciona da mesma forma que a SOMASE, inclusive com o parâmetro opcional, a diferencia é que a MÉDIASE retorna a média de um intervalo de valores.
+
+MÉDIASE(Intervalo; CRITERIO; Intervalo de média)
+
+![[Pasted image 20250118183816.png]]
+
