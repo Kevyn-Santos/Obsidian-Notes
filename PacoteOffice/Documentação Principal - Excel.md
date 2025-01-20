@@ -195,6 +195,21 @@ Outra forma de fazer é utilizando a função CONCAT, funciona da mesma forma, m
 
 No mais temos fórmulas de extração de texto (como DIREITA, ESQUERDA, EXT.TEXTO), e fórmulas de modificação de texto(Como MAIUSCULA, MINUSCULA, MUDAR).
 
+Algumas formulas importantes são a de localização de caracteres, entre elas temos a fórmula LOCALIZAR e PROCURAR. 
+
+#### LOCALIZAR
+
+
+A função localizar encontra um texto específico dentro de uma cadeia de texto, e retorna a posição do caractere inicial do texto procurado, mas nao diferencia as letras maiusculas de minúsculas.
+
+=LOCALIZAR(texto procurado; onde esta o texto procurado; < caractere de inicio de busca>)
+
+Como está função retorna a posição inicial e um texto, é possível utiliza-la junto a fórmula SE ou a fórmula EXT.TEXTO. Ou alguma outra fórmula condicional onde se vá usar um texto como condição.
+
+ Funcao procurar faz o mesmo da localizar, e pode ser usada nas mesmas opções, orem ela diferencia letras maiusculas de minúsculas.
+
+![[Pasted image 20250120075533.png]]
+
 
 
 ### Gráficos
