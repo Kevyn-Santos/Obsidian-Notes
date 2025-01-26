@@ -291,3 +291,16 @@ MÉDIASE(Intervalo; CRITERIO; Intervalo de média)
 
 ![[Pasted image 20250118183816.png]]
 
+### Fórmulas de data
+
+As fórmulas de data permitem um gerenciamento e extração de informações de data. Dentre as principais funções nós temos a HOJE, AGORA, DIA, MÊS, ANO, DIA.DA.SEMANA, DATA. E para funções de Hora temos, HORA, MINUTO, SEGUNDO.
+
+#### HOJE
+
+A função HOJE retorna apenas a data atual do computador, ela não precisa de nenhum parâmetro para ser utilizada mas pode servir de parâmetro para outras funções de dada.
+
+HOJE()
+
+#### AGORA
+
+A função Agora retorna a data e hora atuais do computador. Não precisa de nenhum parâmetro para uso mas pode ser usada de parâmetro para outras funções
