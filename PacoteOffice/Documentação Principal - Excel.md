@@ -319,3 +319,39 @@ HOJE()
 #### AGORA
 
 A função Agora retorna a data e hora atuais do computador. Não precisa de nenhum parâmetro para uso mas pode ser usada de parâmetro para outras funções
+
+#### DIA
+
+A função dia extrai o dia de uma data. Precisa de uma data como parâmetro e esta data pode ser a função HOJE ou AGORA, visto que retornam datas.
+
+DIA(Data) // DIA(HOJE())
+#### MÊS
+
+A função MÊS extrai o MÊS de uma data. Precisa de uma data como parâmetro e esta data pode ser a função HOJE ou AGORA, visto que retornam datas.
+
+MÊS(Data) // MÊS(HOJE())
+
+#### ANO
+
+A função ANO extrai o ANO de uma data. Precisa de uma data como parâmetro e esta data pode ser a função HOJE ou AGORA, visto que retornam datas.
+
+ANO(Data) // ANO(HOJE())
+
+#### DATA
+
+A função DATA monta uma data dado o dia, mês e ano. Pode ser usada em conjunto com as funções DIA, MÊS e ANO, e pode ser usada junto das funções HOJE e AGORA
+
+DATA(ANO, MÊS, DIA) // DATA(ANO(HOJE()); MÊS(HOJE()); DIA(HOJE()) )
+
+#### DIA.DA.SEMANA
+
+O Excel reconhece cada dia da semana como um numero de um a sete, sendo um o domingo e sete o sábado, sendo assim, dia da semana retorna o índice do dia da semana, ou seja, se o dia da semana for segunda, retornará Dois, se for quarta, retornará Quatro, Se for domingo, retornara Um, ETC.
+
+DIA.DA.SEMANA(DATA)
+
+#### HORA, MINUTO E SEGUNDO
+
+Retornam, respectivamente, a hora minuto ou segundo de uma dada hora, sendo assim precisam de uma hora de onde extrair os dados, e com isso podem ser usadas em conjunto com a função AGORA.
+
+HORA, MINUTO, SEGUNDO(Hora)
+
