@@ -151,6 +151,56 @@ A colagem de imagem(transforma as células selecionadas em imagens) e a de image
 No mais, é possível utilizar operações no colar Especial, assim ele cola os valores originais por cima dos outros valores de outra célula e executa alguma operação básica na colagem.
 ## Conceitos Intermediários
 
+### Formatação Condicional
+
+A formatação condicional é a estilização da célula baseado em uma condição. As regras de formatação e os tipos de formatação, são gerenciadas no botão "Formatação Condicional" na guia Inserir:
+
+![[Pasted image 20250128031018.png]]
+
+#### Regras de formatação
+Para as regras de formatação, temos por padrão o Realce de células em condições gerais ou nos primeiros/últimos valores, ou seja, no primeiro as células serão realçadas caso: estejam entre dois valores, sejam maior menor ou igual a algum valor, sejam duplicados, entre outros.
+
+![[Pasted image 20250128031727.png]]
+
+Já no segundo, terão realce os 10 primeiros ou últimos valores, dentre outras regras
+
+![[Pasted image 20250128031839.png]]
+
+#### outros tipos de formatação
+
+Há outros tipos de formatação além do realce de células, sendo os principais a Barra de dados e a Escala de cor.
+
+O primeiro fara um preenchimento gradual das células proporcional ao valor inserido nelas:
+
+![[Pasted image 20250128032426.png]]
+
+![[Pasted image 20250128032446.png]]
+
+Já o segundo fara um preenchimento gradiente das células proporcional ao valor nelas
+
+![[Pasted image 20250128032622.png]]
+
+![[Pasted image 20250128032717.png]]
+
+Há mais dois pontos para se notas sobre a formatação condicional: 1º. A formatação condicional sobrepõe qualquer outra formatação na célula, ou seja, ela será a principal.
+2º. Dependendo do tipo de formatação, elas pode se mesclar nas células. Por exemplo, se uma formatação muda o realce da célula, enquanto outra muda o tipo de dado, se uma célula atender as duas formatações então ela será realçada e terá o tipo de dado alterado.
+#### Formatação Personalizada
+
+Para abrir a caixa de personalização na formatação condicional, basta clicar em "Mais regras" em qualquer outra caixa de formatação, ou no botão "Nova regra", esta é a tela que aparecerá:
+
+![[Pasted image 20250128034425.png]]
+
+No primeiro campo temos o tipo de regra a ser aplicada, que não difere muito dos ja falados. Ja no campo de baixo temos a estilização da formatação, note-se que este campo muda de acordo com a regra selecionada e o tipo de formatação, seguem alguns exemplos:
+
+![[Pasted image 20250128034825.png]]
+
+![[Pasted image 20250128034852.png]]
+
+![[Pasted image 20250128034913.png]]
+
+As regras que mais serão utilizadas serão "Formatar Células que contenham" e "Formatar Células onde uma fórmula é verdadeira". Dentre os dois o ultimo é o mais complicado, pois deve ser utilizada uma formula e ela deve estar estritamente correta parar funcionar, ainda assim, as formulas não são necessariamente as do Excel, podendo ser uma comparação ou operação simples.
+
+
 ### fórmula SE
 
 A fórmula se verifica se uma condição é verdadeira ou falsa e retorna algo dependendo do resultado lógico. Ela pode ser escrita junto das fórmulas E e OU para verificar mais de uma condição lógica e podem ser escritas outras funções SE uma dentro da outra, como se fosse um else IF.
