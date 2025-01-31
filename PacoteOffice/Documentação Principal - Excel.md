@@ -405,3 +405,8 @@ Retornam, respectivamente, a hora minuto ou segundo de uma dada hora, sendo assi
 
 HORA, MINUTO, SEGUNDO(Hora)
 
+
+
+## *Referencies*
+
+[[Documentação Principal - Power Query]]

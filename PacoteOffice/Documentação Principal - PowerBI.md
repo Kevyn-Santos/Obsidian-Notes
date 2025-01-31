@@ -2,91 +2,6 @@
 
 # Power BI
 
-## **POWER QUERY**
-
-O Power Query é uma ferramenta do Power BI que permite o tratamento dos dados antes destes serem importados para um uso mais complexo, é esta ferramenta que permite a exclusão ou inclusão de colunas e linhas, a mudança dos tipos de dados, a mesclagem de tabelas ou colunas, dentre outras coisas. Em suma, esta é a ferramenta que permitirá um tratamento inicial e fundamental dos dados que serão utilizados ao longo do relatório.
-
-
-### Importação de dados
-
-O Power BI permite que sejam importados dados de vários locais diferentes, como paginas da web, Bancos de dados, arquivos JSON, XML ou PDF, entre outros, mas o principal é a importação por meio de arquivos do Excel. Assim que um relatório novo for aberto será mostrado alguns botões para a importação dos dados, mas há outros locais para clicar caso queira mais opções, vamos passar por cada uma:
-
-*Importação na pagina inicial*
-![[Pasted image 20241225135624.png]]
-
-*importação no cabeçalho*
-![[Pasted image 20241225135713.png]] ![[Pasted image 20241225135845.png]]
-
-Caso seja clicado da opção "Obter dados de outra fonte" ou "Obter dados"> "mais"
-
-*mais fontes de dados*
- ![[Pasted image 20241225135905.png]]
-
-Para os dados que vem de arquivos(Excel, CSV, PDF, etc.) será necessário indicar onde ele esta em seu computador, já para dados que vem de um banco de dados, é necessário fazer a conexão com o banco.
-
-### Guia Transformar e Guia Adicionar coluna
-
-Há duas guias principais no Power Query para o tratamento de dados, estão são as guias "Transformar" e a guia "Adicionar coluna", em termos gerais, elas fazem a mesma coisa porem a primeira modifica a coluna selecionada, substituindo seus valores, enquanto a segunda cria uma nova coluna e adiciona a modificação nela, nos próximos tópicos serão especificados os tipos de transformações que podem ser feitas dependendo do tipo de dado, e ficará mais clara esta distinção das modificações. 
-
-Mas antes de passar para as tratativas diferentes de dados é bom falar da divisão entre estas duas guias. Apesar de ambas as guias fazerem a mesma coisa mas de formas diferentes a divisão entre elas muda um pouco, por exemplo, na guia "transformar" temos um campo especifico para transformações em toda tabela, outro para as transformações apenas em colunas, e outros para transformações de texto, números e datas.
-
-Isso difere um pouco da guia "Adicionar colunas", pois nela temos o campo apenas para a adição de colunas, e outros para o tratamento de textos, números e datas. Sendo assim, a principal diferença na organização dos campos é que, enquanto na primeira guia podemos modificar a tabela toda, na segunda estamos limitados apenas a adição de colunas.
-
-*Guia Transformar*
-![[Pasted image 20241225134633.png]]
-
-*Guia Adicionar Colunas*
-![[Pasted image 20241225134738.png]]
-### Transformar Dados – Texto
-
-Transformar: Altera os valores da coluna original nela mesma
-
-Adicionar Coluna: Altera os valores da coluna original, criando uma nova coluna com as alterações no final.
-
-Extrair: extrai valores de uma coluna, utilizando algum delimitador ou regra.
-
-Dividir valores: separa os valores de uma coluna em outras, utilizando algum delimitador ou regra.
-
-### Transformar Dados – Numero
-
-OBS: Alguns caracteres especiais não aparecem na parte de transformação de dados, eles aparecerão na parte do relatório
-
-Numero decimal Fixo - Travado em duas casas decimais, é a formatação em moeda
-
-Estatística – Transformar e Adicionar coluna:  
-  
-Transformar – Substitui toda a tabela pela estatística desejada da coluna
-
-Adicionar coluna – é necessária mais de uma coluna, adiciona a estatística desejada destas colunas como uma nova coluna no final.
-
-### Transformar Dados – Data
-
-O calculo de idade vem no formato de hora, portanto é necessário tratar o dado de maneira mais especifica, da seguinte forma:  
-  
-Formatar para data> Pedir o cálculo de idade (Em adicionar coluna)> formatar a nova coluna como numero inteiro> dividir o numero por 365> conferir se está tudo correto.
-
-### Transformar dados – colunas condicionais
-
-Cria uma nova coluna baseada em algumas condições estabelecidas (funciona apenas em “Adicionar nova coluna”). É como uma formatação condicional.
-
-Para tratar erros que possuem valor: botão direito na coluna> Substituir erros> valor que o erro deveria possuir.
-
-### Transformar dados – coluna de índice
-
-A coluna de índice será a coluna com as chaves primárias da tabela.
-
-Para criar uma coluna de índice: selecione “Coluna de índice” em “Adicionar Coluna”>   Selecione o valor de início da coluna de índice.
-
-### Ferramentas de dados
-
-Agrupar – resume as informações da tabela tendo com referencia uma ou mais colunas, este resumo pode ser várias operações como soma, contar linhas, dividir, etc. Então por exemplo, caso você deseje o total de receita por estabelecimento. Você irá agrupar todos os estabelecimentos e somar os valores associados, se você quiser o total de receita de estabelecimentos divididos por tipo, a ferramenta vai filtrar estes tipos e vai te retornar à somatória das receitas. Então esta ferramenta agrupa as informações iguais e resume os valores associados a ela em alguma operação.
-
-Mesclar – Junta os valores de duas ou mais colunas em uma terceira coluna
-
- Intercalar tabelas - junta os valores de duas ou mais tabelas em uma terceira tabela. É necessário ter colunas com valores iguais, pois elas serão as “Chaves primarias” para a junção.
-
-Append – adiciona linhas com informações de outras tabelas
-
 ## **RELAÇÕES**
 
 ### O que são relacionamentos
@@ -568,6 +483,8 @@ O KPI é um elemento que retorna o desvio de um valor em relação a muta em um 
 ## **OUTROS**
 
 ### Tabela de medidas
+[Tabela medidas - Hashtag](https://www.youtube.com/watch?v=mogVBx43n5M)
+
 
 Para organizar melhor os dados, é possível criar uma tabela somente para as medidas, isso é feito da seguinte forma:
 
@@ -592,6 +509,8 @@ Após colocar as medidas nesta nova tabela, oculte a coluna que foi criada, com 
 ![[Pasted image 20241222165920.png]]
 
 ### Gráfico de Funil
+[Gráfico de funil - Hashtag](https://www.youtube.com/watch?v=_vJioBgeO3M)
+
 
 O gráfico de funil serve para segmentar os valores inseridos em diversas etapas, por mais que sua utilidade seja muito similar a um gráfico de linha comum, o de funil se destaca por inerentemente permitir a comparação dos valores atuais com os anteriores. 
 
@@ -605,6 +524,8 @@ No gráfico de filtro temos duas informações interessantes, ele naturalmente p
 ![[Pasted image 20241222210955.png]]
 
 ### Hyperlinks
+[Menu de navegação com Hyperlinks - Hashtag](https://www.youtube.com/watch?v=pouA07QNZD8)
+
 
 Os Hyperlinks são botões dentro do relatório que direcionam o usuário para outras partes do mesmo, assim não seria necessário ficar clicando nas páginas para ir á outra parte do relatório, basta clicar em um botão com um link e você será redirecionado para lá.
 
@@ -657,9 +578,13 @@ Código para criar Base de Calendário e Datas (Dentro do Power Query!!):
 = List.Dates(#date(1900,1,1), Number.From(DateTime.LocalNow())-Number.From(#date(1900,1,1)) ,#duration(1,0,0,0))
 
 ### Como criar Rankings
+[Criação de Rankings - Hashtag](https://www.youtube.com/watch?v=dKlAAp78iqE&t=1407s)
+
 
 
 ### Scroller
+[Gráfico Scroller - Hashtag](https://www.youtube.com/watch?v=5tEUaXxQA2o&t=2s)
+
 
 O scroller é um visual personalizado do Power Bi, ele permite a criação de uma espécie de letreiro que passa as informações de venda da empresa e indica se os valores foram maiores ou menores do que o uma meta. O Scroller não é nativo do Power BI, ele foi criado e deve ser baixado como um novo visual. 
 
@@ -667,3 +592,28 @@ Para sua confecção ele pede três informações principais, como os valores se
 
 ![[Pasted image 20250104125549.png]]
 
+
+### Criação de variáveis
+[Criação de variáveis- Hashtag](https://www.youtube.com/watch?v=ZqSprf5FcMY)
+
+
+### SUMMARIZE
+[Função SUMMARIZE - Hashtag](https://www.youtube.com/watch?v=hOSXoLslMFY)
+
+
+
+### LOOKUPVALUE
+[Função LOOKUPVALUE - Hashtag](https://www.youtube.com/watch?v=P_MxMZfZr_U)
+
+
+
+### Filtros do CALCULATE
+ [Documentação CALCULATE](https://learn.microsoft.com/pt-br/dax/calculate-function-dax)
+
+
+
+## *Referencies*
+
+[[Documentação Principal - Power Query]]
+[Playlist Power BI - Hashtag](https://www.youtube.com/playlist?list=PLxjKFMYkZ9OfDG_LkQ3Txln5BqLZY5iac)
+[Documentação Oficial Power BI](https://learn.microsoft.com/pt-br/power-bi/)
