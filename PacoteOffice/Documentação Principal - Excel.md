@@ -206,7 +206,7 @@ A função localizar encontra um texto específico dentro de uma cadeia de texto
 
 Como está função retorna a posição inicial e um texto, é possível utiliza-la junto a fórmula SE ou a fórmula EXT.TEXTO. Ou alguma outra fórmula condicional onde se vá usar um texto como condição.
 
- Funcao procurar faz o mesmo da localizar, e pode ser usada nas mesmas opções, orem ela diferencia letras maiusculas de minúsculas.
+ Funcao procurar faz o mesmo da localizar, e pode ser usada nas mesmas opções, porem ela diferencia letras maiusculas de minúsculas.
 
 ![[Pasted image 20250120075533.png]]
 
