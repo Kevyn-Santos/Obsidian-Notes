@@ -617,3 +617,4 @@ Para sua confecção ele pede três informações principais, como os valores se
 [[Documentação Principal - Power Query]]
 [Playlist Power BI - Hashtag](https://www.youtube.com/playlist?list=PLxjKFMYkZ9OfDG_LkQ3Txln5BqLZY5iac)
 [Documentação Oficial Power BI](https://learn.microsoft.com/pt-br/power-bi/)
+[Documentação Funções DAX](https://learn.microsoft.com/pt-br/dax/dax-function-reference)

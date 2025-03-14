@@ -201,6 +201,33 @@ No primeiro campo temos o tipo de regra a ser aplicada, que não difere muito do
 As regras que mais serão utilizadas serão "Formatar Células que contenham" e "Formatar Células onde uma fórmula é verdadeira". Dentre os dois o ultimo é o mais complicado, pois deve ser utilizada uma formula e ela deve estar estritamente correta parar funcionar, ainda assim, as formulas não são necessariamente as do Excel, podendo ser uma comparação ou operação simples.
 
 
+### Fórmulas de contagem
+
+As fórmulas de contagem no Excel são feitas para contar linhas com algum conjunto de dados. Dentre as principais temos CONT.NÚM, CONT.VALORES, CONTAR.VAZIO.
+
+Uma observação é que para cada fórmula é possível passar um único parâmetro, com este sendo uma matriz com todos os valores, ou passar vários parâmetros, com cada um deles sendo uma das colunas para contagem.
+####  CONT.NÚM
+
+A fórmula CONT.NÚM conta apenas células que contenham números, ou seja, células vazias ou com textos serão ignoradas.
+
+CONT.NÚM(intervalo1; < Intervalo2 >; ...)
+
+![[Pasted image 20250201100711.png]]
+
+#### CONT.VALORES
+
+A fórmula CONT.VALORES conta as células que contenham qualquer valor, ou seja, serão ignoradas apenas células em branco, desta forma até mesmo células com erro são contadas, diferente da CONT.NÚM.
+
+CONT.VALORES(intervalo1; < Intervalo2 >; ...)
+
+![[Pasted image 20250201100734.png]]
+#### CONTAR.VAZIO
+
+A fórmula CONTAR.VAZIO conta apenas células vazias, ou seja, células com qualquer valor serão ignoradas.
+
+CONTAR.VAZIO(intervalo1; < Intervalo2 >; ...)
+
+![[Pasted image 20250201100753.png]]
 ### fórmula SE
 
 A fórmula se verifica se uma condição é verdadeira ou falsa e retorna algo dependendo do resultado lógico. Ela pode ser escrita junto das fórmulas E e OU para verificar mais de uma condição lógica e podem ser escritas outras funções SE uma dentro da outra, como se fosse um else IF.
@@ -405,6 +432,47 @@ Retornam, respectivamente, a hora minuto ou segundo de uma dada hora, sendo assi
 
 HORA, MINUTO, SEGUNDO(Hora)
 
+
+
+
+### Filtros e Classificação
+
+#### Filtros
+Para fazer a aplicação de filtros no Excel, basta habilitar a opção na guia "Dados", ele por padrão aparecerá na primeira célula preenchida da coluna, e ele pode ser aplicado em varias células de uma vez ao selecionar varias células.
+
+O filtro pode ser utilizado para isolar células ou podem ser utilizadas configurações especificas de filtro para cada tipo de dado. Por exemplo, quando é um numero você pode filtrar por "Maior/Menor Que", "Igual á", "Diferente De", etc. O mesmo vale para datas e textos, cada tipo de dado possuem configurações de filtros personalizadas que podem ser utilizadas.
+
+OBS: Caso as células possuam paletas de cores, é possível filtrar por estas paletas
+
+![[Pasted image 20250201131530.png]]
+
+![[Pasted image 20250201131553.png]]
+
+![[Pasted image 20250201131703.png]]
+
+![[Pasted image 20250201131736.png]]
+
+#### Classificação
+
+Em suma, a classificação permite organizar os dados em ordem crescente ou decrescente, sua aplicação pode ser feita por meio do botão de filtro nas primeiras células da coluna, ou selecionando todo o conjunto de dados e clicando no botão de Classificar na guia "Dados".
+
+![[Pasted image 20250201131530.png]]
+
+Um ponto interessante sobre a classificação é que os dados adjacentes as células classificadas são alterados junto das células originais, ou seja, caso haja uma sequencia de números e adjacente a ela alguma outra informação, a outra informação mudará conforme a ordem dos números for alterada. Mas isso pode ser alterado selecionando o conjunto de dados e aplicando aclassificação no botão classificar na guia dados.
+
+
+![[Pasted image 20250201132812.png]]
+
+*Dados classificados em ordem crescente*
+![[Pasted image 20250201132423.png]]
+
+*Dados classificados em ordem Decrescente*
+
+![[Pasted image 20250201132458.png]]
+
+*dados classificados por cor*
+
+![[Pasted image 20250201132548.png]]
 
 
 ## *Referencies*
