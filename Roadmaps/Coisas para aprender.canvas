@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"de3516bf2eb4ae4a","type":"group","x":-380,"y":-180,"width":640,"height":400,"color":"2","label":" pacote Office"},
+		{"id":"9ec1b6717fb8ba2f","type":"group","x":500,"y":-180,"width":500,"height":420,"color":"5","label":"linguagens de programação"},
+		{"id":"7af5f5f2abbdce80","type":"text","text":"[[Roadmap Python.canvas|Python]]","x":520,"y":-160,"width":250,"height":80},
+		{"id":"3039a0bf05ff9095","type":"text","text":"Excel Hashtag treinamentos\n\nCurso básico de informática","x":-165,"y":-380,"width":285,"height":80,"color":"3"},
+		{"id":"618d2310722f77ce","type":"text","text":"R","x":520,"y":-59,"width":250,"height":60},
+		{"id":"4e6b460abdb47659","type":"text","text":"outlook","x":-360,"y":-160,"width":250,"height":60},
+		{"id":"e089bbc021806e58","type":"text","text":"Excel\nMacros e VBA","x":-360,"y":-54,"width":250,"height":60},
+		{"id":"673283b8940cb663","type":"text","text":"powerPoint\n","x":-360,"y":40,"width":250,"height":60},
+		{"id":"d11c3ce838680363","type":"text","text":"Word","x":-360,"y":140,"width":250,"height":60},
+		{"id":"58150d6e3f80ff7b","type":"text","text":"Integrações com powerBI\n\nPowerApps","x":-22,"y":-24,"width":260,"height":90},
+		{"id":"4e0a1ff3d80d3848","type":"text","text":"C#","x":520,"y":140,"width":250,"height":60},
+		{"id":"4cf86ddbfb63ede7","type":"text","text":"SQL","x":520,"y":40,"width":250,"height":60},
+		{"id":"62891b909c0179e1","type":"text","text":"Bóson treinamentos\n\nCurso básico de informática\n\nHashtag treinamentos","x":600,"y":-406,"width":299,"height":133,"color":"3"}
+	],
+	"edges":[
+		{"id":"abd1fe16b1603940","fromNode":"4e6b460abdb47659","fromSide":"bottom","toNode":"e089bbc021806e58","toSide":"top"},
+		{"id":"59ba6ea59b1e66cc","fromNode":"e089bbc021806e58","fromSide":"bottom","toNode":"673283b8940cb663","toSide":"top"},
+		{"id":"ccc35390a413c92a","fromNode":"673283b8940cb663","fromSide":"bottom","toNode":"d11c3ce838680363","toSide":"top"},
+		{"id":"2f7960bca6fcb5a1","fromNode":"de3516bf2eb4ae4a","fromSide":"right","toNode":"9ec1b6717fb8ba2f","toSide":"left"},
+		{"id":"a68b5bfbeff82414","fromNode":"e089bbc021806e58","fromSide":"right","toNode":"58150d6e3f80ff7b","toSide":"left"},
+		{"id":"76de51d39f85f6b0","fromNode":"7af5f5f2abbdce80","fromSide":"left","toNode":"58150d6e3f80ff7b","toSide":"right"},
+		{"id":"30551b1e6ca1cf49","fromNode":"e089bbc021806e58","fromSide":"right","toNode":"4e6b460abdb47659","toSide":"right"},
+		{"id":"378e09a85c1e1bcc","fromNode":"e089bbc021806e58","fromSide":"right","toNode":"673283b8940cb663","toSide":"right"},
+		{"id":"903f6c9baa522fa9","fromNode":"673283b8940cb663","fromSide":"right","toNode":"d11c3ce838680363","toSide":"right"},
+		{"id":"15d60c7f0140bf13","fromNode":"618d2310722f77ce","fromSide":"left","toNode":"58150d6e3f80ff7b","toSide":"right"},
+		{"id":"7a40add2bfd81824","fromNode":"de3516bf2eb4ae4a","fromSide":"top","toNode":"3039a0bf05ff9095","toSide":"bottom"},
+		{"id":"ac15df8d511b7984","fromNode":"9ec1b6717fb8ba2f","fromSide":"top","toNode":"62891b909c0179e1","toSide":"bottom"},
+		{"id":"49b722c1836fa086","fromNode":"4cf86ddbfb63ede7","fromSide":"left","toNode":"58150d6e3f80ff7b","toSide":"right"},
+		{"id":"6f367f72ffd2e909","fromNode":"673283b8940cb663","fromSide":"right","toNode":"58150d6e3f80ff7b","toSide":"left"}
+	]
+}
