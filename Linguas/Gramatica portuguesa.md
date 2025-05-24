@@ -433,7 +433,9 @@ Másculo / homúnculo / versículo
 
 ##### Outros sufixos nominais:
 
-Há ainda outros *Sufixos nominais* que criam substantivos a partir de outros substantivos, como por exemplo:
+Há ainda outros *Sufixos nominais* que criam substantivos a partir de outros sufixos de substantivos, adjetivos, verbos, e as junções adjetivo-substantivo, como por exemplo:
+
+###### Substantivos de Substantivos:
 
 Ada - > Multidão; porção dentro de algo; ferimento ou golpe; duração prolongada; etc.
 Ado -> Território dominado; instituição ou titulo

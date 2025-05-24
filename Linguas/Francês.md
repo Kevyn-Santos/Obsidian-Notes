@@ -1,93 +1,88 @@
-# Frases em Francês
 
-### Bonjur Madamme, un thé s'il vous plaît -
-
-Bonjur - Bom dia
-Madamme - Senhora
-un - um (artigo indefinido masculino)
-thé - chá (Substantivo)
-S'il vous plaît - Por favor
-
-### Un café et un thé, s'il vous plaît - Um café e um chá por favor
-
-Un - um (Artigo indefinido masculino)
-café - café
-et - E
-un - um(Artigo indefinido masculino)
-thé - chá
-S'il vous plaît - Por favor
-
-### Je Voudrais un croissant, S'il vous plaît
-
-Je  - Eu(Primeira pessoa do singular)
-Voudrais - Gostaria
-un - um
-croissant - croissant(Substantivo)
-S'il vous plaît - Por favor
-
-### Un thé ou un café:
-
-Un - um
-Thé - cha
-ou - ou
-un -Um
-Café - café
-
-### Bonjour monsieur, je voudrais un thé
-
-Bonjur -  Bom dia
-monsieur - Senhor
-Je voudrais - Gostaria
-un thé - um chá
-
-### Non, un thé
-
-non - não
-un thé - chá
-
-### Oui, un Sandwich
-
-Oui - Sim
-un Sandwich - Um Sanduiche
-
- 
-### Adeus senhor e senhora:
-
-Au revoir - Adeus
-Monsieur - Senhor
-et - E
-Madame - Senhora
-
-## moi aussi
-
-Moi - Meu
-Aussi - também
-
-## moi aussi, je m'appelle kevyn
-
-Moi - Meu
-Aussi - tambem
-je M'appelle - eu me chamo 
-
-## Je viens de Brazil
-
-Je - Eu
-Viens - Vir
-de - de
-Brazil - Brasil
-
-Eu venho do brasil / Eu sou do Brasil
-
-## Je viens de quelque part
-
-Je - Eu
-Viens - Venho
-de - de 
-Quelque - qualquer
-Part - Lugar (Quando junto do "Quelque")
 # Verbos e pronomes em Francês
+
+## Verbo être
+
+O verbo être é o ser/estar do francês, sendo um dos mais importantes, Ele denota qualidades, estados fisicos/emocionais, e localização de seres. ele sempre vem após um substantivo comum, ou um substantivo próprio, ou um pronome.
+
+Ele é um verbo irregular, e sua conjugação possui seis pessoas, sendo três no singular e três no plural:
+
+singular:
+
+1ª pessoa do singular - *Je* **Suis** (Eu sou)
+2ª pessoa do singular - *Tu* **Es** (Você é (informal))
+3ª pessoa do singular - *Il, elle, on* **Est** (Ele é, Ela é, Nós/Eles/Isto Somos (indefinido))
+
+Plural:
+1ª pessoa do plural - *nous* **Sommes** (Nós Somos) 
+2ª pessoa do plural - *Vous* **êtes** (Vós sois)
+3ª pessoa do plural - *Ils, elles* **Sont** (Eles/Elas são)
+
+Obs: As conjugações verbais na terceira pessoa do singular, especialmente com o pronome *On*, denotam um sujeito indefinido, tal sujeito pode ser uma pessoa ou objeto, ou um grupo de pessoas ou objetos indefinidos. o pronome *On* estar no singular mesmo denotando plural é por que geralmente no francês moderno o pronome *Nous* é substituído por ele.
+
+### Detalhes sobre o uso do être:
+
+* O être geralmente é usado antes de um substantivo que denota lugar ou um adjetivo descritivo. Se for usado com um substantivo de lugar é necessário o uso de uma preposição e o artigo do substantivo. (John est à la ville; il est en la voiture / john esta na cidade; Ele esta em um carro)
+
+	est - Verbo
+	à - Preposição
+	La ville - Substantivo(com seu artigo)
+	il -> terceira pessoa do singular
+	en -> preposição
+	la voiture -> Substantivo(Com seu artigo)
+
+* Quando há um adjetivo após o verbo, o adjetivo concorda com o substantivo em gênero e número. (Les Roses Rouges Sont Belles / As rosas vermelhas são bonitas)
+
+	Les Roses -> Sujeito(Substantivo)
+	Rouges -> Adjetivo descritivo de cor(Em outras palavras, é a cor vermelha)
+	Sont -> Verbo (Terceira pessoa do plural)
+	Belles -> Adjetivo(Esta no feminino e no plural, pois "Rosas vermelhas" está no feminino e plural e o adjetivo vem após o verbo "Sont")
+
+* Os artigos definidos e indefinidos são escondidos quando: o verbo é usado com substantivos que denotam profissão, religião e nacionalidade que não são modificados por adjetivos. (il est protestant)
+
+	Il -> Pronome 
+	Est -> verbo(terceira pessoa do singular)
+	protestant -> Substantivo que denota religião(Sem o artigo)
+
+* Se houver um adjetivo que modifique o substantivo, são utilizados os pronomes indefinidos *C'est ou ce Sont*, além disso serão usados os artigos ou adjetivos possesivos nos casos de profissão, religião ou nacionalidade. (C'est un diligent protestant / É um protestante Diligente; Ce sont mes amies Françaises / Vocês são minhas amigas francesas)
+
+	C'est -> Verbo e artigo indefinido *Ce*(O verbo esta na terceira pessoa do singular)
+	un -> Artigo indefinido 'um'
+	Diligent -> Adjetivo descritivo
+	protestant -> Substantivo(Esta sendo modificado pelo adjetivo Diligent)
+
+	Ce Sont -> Verbo junto do artigo indefinido *Ce*(O verbo esta na terceira pessoa do plural)
+	mes -> adjetivo possesivo(minhas)
+	amie -> Substantivo(Esta sendo modificado pelo adjetivo Françaises)
+	Françaises -> Adjetivo descritivo
+
+	* Ce, Cet, Cette, Ces:
+		Ce -> É um pronome demonstrativo que significa 'este' e portanto se refere a algo não definido. É usado quando o substantivo a que se refere é masculino, singular, e inicia com **consoante**. (Ce jardin - Este jardim)
+	
+		Cet -> Pronome demonstrativo que significa 'este'. É usado quando o substantivo a que se refere é masculino, singular, e se inicia com **vogal ou h mudo**, é usado o 't' após o 'ce' para evitar Hiato. (Cet homme - Este Homem / Ce homme(Tem o mesmo significado, mas é formado um hiato c-o que dificulta a fala)
+	
+		Cette -> Pronome demonstrativo que significa 'esta'. É usado quando o substantivo a que se refere é feminino, singular, **e independe se é iniciado com consoante ou vogal**. (Cette Fênetre - Esta janela / Cette Avenue - Esta avenida)
+	
+		Ces -> Pronome demonstrativo que significa 'Estes/Estas'. É usado tanto com substantivos masculinos quanto femininos, independente se iniciados com vogal ou consoante, mas é utilizado apenas no plural. (Ces Homme - Estes Homens / Ces Fênetre - Estas janelas)
+	
+		-Ci, -Là -> São 'sufixos' que denotam a distancia relativa de algo, *-Ci* denota que algo esta próximo e *-là* denota que algo esta mais longe. São as vezes utilizados após os substantivos que são precedidos por algum dos pronomes demonstrativos, e eles são utilizados com o hífen. (Cette Maison-Ci - Esta casa / Cette maison-là - Aquela casa)
+
+* Se for usado *C'est/ Ce Sont* para descrever nacionalidades, então elas terão artigo e serão capitalizados. (John C'est un Américain)
+
+	john -> Sujeito
+	C´'est -> Artigo indefinido com o verbo(Terceira pessoa do singular)
+	Un -> Artigo indefinido
+	Américain -> Adjetivo de nacionalidade(Possui o adjetivo 'un' por estar descrevendo alguém)
+
+
+* Em um geral, e se não se enquadrar nas regras acima, substantivos que denotam profissão, religião ou nacionalidade, não possuirão artigos e não serão capitalizados. 
+## Pronomes pessoais:
+
+Seguem abaixo os principais pronomes em Francês de cada conjugação do verbo être. Eles são usados para se referir a um sujeito ou substantivo ja mencionado e por isso seguem este sujeito em gênero e número
+
+
 Pronomes pessoais em frânces:
-Je - Eu (Primeira pessoa do singular)
+Je(J') - Eu (Primeira pessoa do singular)
 Tu - você (Segunda pessoa do singular)
 Il - Ele (Terceira pessoa do singular, masculino)
 Elle - Ela (Terceira pessoa do singular, Feminino)
@@ -96,6 +91,34 @@ Nous - Nós(Formal) (Primeira pessoa do plural)
 Vous - vós (Formal) (Segunda pessoa do plural)
 Ils - Eles (Terceira pessoa do plural, masculino)
 Elles - Elas (Terceira pessoa do plural, masculino)
+
+Algumas observações sobre os pronomes são:
+
+* O pronome *Je*, assim como os artigos definidos, perde seu *-e* quando aparece junto a uma vogal ou *h mudo*, sendo pronunciado com o resto da palavra. (J'ai un noveau Travail - Eu consegui um novo trabalho)
+* Os pronomes *Tu e Vous* são usados, respectivamente, para se dirigir de forma informal ou formal a algo ou alguém, e o plural de ambos é *vous* (Tu es étudiante? Vous êtes étudiante? - Você é uma estudante?)
+* O pronome *On* denota uma coisa(ou grupo) não definida, e no francês moderno é um substituto de *Nous* (on est Fatigué / Nous Sommes Fatigué - Nós estamos cansados)
+* No infinitivo o verbo não muda sua conjugação dependendo da palavra seguinte, então basta colocar como esta na lista original.
+
+### Exemplos do verbo Être e dos pronomes
+
+Je suis Kevyn - Eu sou Kevyn
+Tu Es Marcus - Você é Marcus
+il Est John - Ele é João
+ile Est Marie - Ela é Maria
+On Est un Livre - Isto é um livro
+Nous Sommes étudiants - Nós somos Estudantes
+Vous êtes étudiants - Vocês são Estudantes
+Ils Sont amis - Eles são Amigos
+Elles Sont Amies - Elas são amigas
+
+#### Exercícios verbo être:
+
+![[Exercicio4FR.png]]
+
+![[Exercicio5FR.png]]
+
+
+## Verbo Avoir:
 
 # Substantivos
 
@@ -274,3 +297,204 @@ le travail -> les travaux - o trabalho / os trabalhos
 ![[Exercicio2FR.png]]
 
 ![[Exercicio3FR.png]]
+
+# Adjetivos:
+
+## Adjetivos descritivos:
+
+Os adjetivos descritivos servem para descrever qualidades de substantivos, dessa forma, eles geralmente aparecem após os substantivos(mas alguns podem aparecer antes). 
+
+* Eles concordam em Gênero e Numero com os substantivos e podem aparecer após as conjugações do verbo être.
+
+	**Un professeur Intéressant** -> O adjetivo vem após o substantivo
+	
+	un professeur -> Substantivo(junto do artigo, pois ele esta sendo modificado pelo adjetivo)
+	Intéressant -> Adjetivo
+	
+	**Elle est Sportive** -> O adjetivo vem após o verbo
+	
+	Elle -> Pronome(Terceira pessoa do singular no feminino)
+	est -> verbo être(terceira pessoa do singular)
+	Sportive -> Adjetivo(Atlética, esta no feminino pois o sujeito é feminino e o adjetivo aparece após o verbo).
+
+### Concordância de gênero e número:
+
+* A forma feminina dos adjetivos termina em *-e*, enquanto o plural regular termina em *-s*. 
+	(Atleticos / Atleticas; Sportifs / Sportives)
+
+* Se a forma masculina e singular do adjetivo terminar em um *-e silencioso* ou não acentuado, então tanto a forma masculina quanto feminina no singular serão iguais. 
+	(C'est un homme Extraordinaire -> *Extraordinaire* termina em *-e silencioso*, então fica igual no feminino
+	C'est une Femme Extraordinaire ->*Extraordinaire* termina em *-e silencioso*, então fica igual no masculino)
+
+* Se o adjetivo no singular termina em *-s ou -x* então o plural terminará da mesma forma.
+	Mr. blin est Généreux; ses enfants sont aussi Généreux. -> Généréux termina em -x no singular, portanto terminará da mesma forma no plural.
+	
+	Mr.Blin -> Sujeito
+	est -> verbo(Terceira pessoa do singular)
+	Généreux -> Adjetivo(é irregular por conta da terminação)
+	ses -> Pronome possessivo(seus)
+	enfants -> substantivo(filhos)
+	sont -> verbo(Terceira pessoa do plural)
+	aussi -> substantivo(também)
+	Généreux -> adjetivo(Irregular pela terminação)
+
+* Se o grupo ou sujeito no plural tiver ao menos um elemento masculino, então o adjetivo será masculino.
+	Suzanne et Georges sont Intelligents
+	
+	Suzanne et Georges -> Sujeitos(Ao menos um é masculino)
+	Sont -> verbo(Terceira pessoa do plural)
+	Intelligents -> Adjetivo(Esta no masculino e plural, pois ha um sujeito masculino na frase e a mesma contem mais de um sujeito)
+	
+	Suzanne et Marie sont Intelligentes
+	
+	Suzanne et Marie -> Sujeitos(ambos femininos)
+	Sont -> Verbo(terceira pessoa do plural)
+	Intelligentes -> Adjetivo(Esta no plural e feminino pois ha mais de um sujeito na frase e eles não são masculinos)
+
+* Adjetivos invariáveis ou frases adjetivais não mudam em gênero ou número
+	
+	Ce sont des Chaussueres chic et bon marché -> Estou falando de mais de um sapato, porem como os adjetivos são invariáveis eles não passam para o plural.
+	
+	Ce sont -> Verbo indefinido(Terceira pessoa do plural)
+	des Chaussueres -> Sujeito(Como é modificado por adjetivos então ele mantem o artigo; Sapato)
+	chic -> Adjetivo(Invariavel; Chique)
+	bon Marché-> Adjetivo(Inváriavel; Barato)
+
+* Alguns adjetivos tem formas irregulares, seguem os exemplos mais importantes
+
+	Gentil / gentille / Gentils / Gentilles -> Gentil(Masc. /Fem. singular); Gentis(Masc. /Fem. Plural)
+	
+	Travailleur / Travailleuse / Travailleurs / travailleuses -> Trabalho duro(Masc. /Fem. Singular); Trabalhos duros(Masc. / Fem. plural)
+	
+	Sportif / Sportive / Sportifs / Sportives -> Atletico(Masc. /Fem Singular); Atleticos(Masc. /Fem. Plural)
+	
+	Cher / chère -> Caro / Cara
+	Ennuyeux / Ennuyeuse -> Chato / Chata
+	paresseux / Paresseuse -> Pregiçoso / preguiçosa
+	Sérieux / Sérieuse -> Sério / Séria 
+
+### Adjetivos de cor:
+
+As cores como adjetivos também vem após os substantivos, e concordam com eles em gênero e número, apenas algumas cores tem regras mais especificas.
+
+* As cores Branco(Blanc) e roxo(Violet) possuem formas irregulares no feminino
+	
+	blanc / Blanche; violet / Violette
+	
+	un crayon blanc -> Um lápis branco
+		un -> Artigo indefinido
+		Crayon-> Substantivo(Lápis)
+		Blanc-> Adjetivo de cor(Branco)
+	
+	une chemise blanche -> Uma camisa branca
+		une-> Artigo indefinido
+		Chemise-> Substantivo
+		Blanche-> Artigo de cor(Branca)
+	
+	des cahiers violets -> alguns cadernos Roxos
+		des -> Artigo indefinido plural
+		Cahiers-> Substantivo(Cadernos)
+		Violet-> Adjetivo de cor(Roxo)
+	
+	des voitures violettes -> Alguns carros roxos
+		des-> artigo indefinido no plural
+		Voitures-> substantivo
+		violettes-> Adjetivo de cor(Roxos)
+
+* As cores Marrom(marron) e laranja(orange) não mudam em gênero e número, ou seja, são invariáveis.
+	
+	Des chaussures marron
+		Des-> Artigo indefinido plural
+		Chaussures-> Substantivo(Sapatos)
+		Marron-> Adjetivo de cor(Marrom; Não muda sua forma mesmo com a frase no plural)
+	
+	Des Voitures Orange
+		Des-> Artigo indefinido Plural
+		Voitures-> Substantivo
+		Orange-> Artigo de cor(Laranja; Não muda mesmo com a frase estando no plural)
+
+* Os nomes das cores são masculinas quando usadas como substantivo ao invés de adjetivo
+	
+	j'aime le rose et le bleu
+		j'aime -> Verbo amar junto pronome 'eu'(Eu amo)
+		Le rose -> Substantivo de cor(O rosa)
+		et -> conectivo(e)
+		Le bleu-> Substantivo de cor(O azul)
+
+* Adjetivos de cor terminados em *-e silencioso* são pronunciados da mesma forma no masculino e feminino
+	
+	une chaise rouge -> Uma cadeira vermelha
+	un manteau rouge -> Um manto vermelho
+	Des pull-overs Roses -> Os suéteres Rosas
+	Des chaussettes Roses-> Os sapatos Rosas
+
+### Adjetivos que precedem o substantivo
+
+Por mais que a maioria dos adjetivos sucedam o substantivos, alguns deles o precedem, enquanto outros podem preceder e suceder o substantivo. Seguem todos aqueles que precedem os substantivos, e aqueles que podem preceder e sucede-los.
+
+#### Adjetivos precedentes:
+
+Autre - outro 
+	(Il est autre ètudiant / Ele é outro estudante)
+beau - lindo
+bon / bonne - bom / boa
+mauvais / mauvaise - maldoso(ruim) / maldosa(ruim)
+joli / jolie - bonito / bonita
+même - igual
+grand / grande - grande(altura) / grande(altura)
+gros / grosse - gordo(grande) / gorda(grande)
+jeune - jovem
+nouveau - novo
+vieux - velho
+petit / petite - pequeno / pequena
+
+Dentre estes adjetivos, o *beau, nouveau, e vieux* possuem uma forma diferente quando vem antes de um substantivo iniciado em vogal ou h mudo, além de possuírem forma feminina própria. Seguem as divisões:
+
+Masculino:
+	Beau, Nouveau, Vieux / Beaux, Nouveaux, Vieux
+	
+	C'est un beau Garçon / Ce Sont des beaux Garçons
+	C'est Un nouveau garçon / Ce sont des Nouveaux Garçons
+	C'est Un Vieux proffesseur / Ce sont des Vieux Professeurs
+
+Feminino:
+	Belle, Nouvelle, Vieille / Belles, Nouvelles, Vieilles
+	
+	C'est Un belle femme / Ce sont des belles Femmes
+	C'est un nouvelle Femme / Ce sont des Nouvelles Femmes 
+	C'est Un Vieille Femme / Ce sont des Vieilles Femmes
+
+Antes de vogal ou h mudo:
+	Bel, Nouvel, Vieil / Beaux, Noveaux, Vieux
+	
+	C'est un bel homme / Ce sont des beaux hommes
+	C'est un Nouvel homme / Ce sont des nouveaux Hommes
+	C'est un vieil homme / Ce sont des Vieaux hommes
+
+* Quando há um adjetivo no plural junto de um substantivo no plural, o artigo indefinido *Des* é geralmente reduzido para *de* ou *d'*. 
+	de grandes Autos -> alguns grandes carros
+	d' autres amies -> algumas outras amigas( *d'* -> Quando a próxima palavra começa com vogal).
+#### Adjetivos Precedentes e sucedentes
+
+A mudança na posição do adjetivo muda o sentido da frase, mas seguem os principais que podem ser mudados:
+
+ancien - Ancião
+	se vier antes -> Ex (Un ancien professeur / um ex professor)
+	Se vier depois-> muito velho (Un Professeur ancien / Um professor muito velho)
+Dernier - Ultimo
+	Se vier antes -> Final (Le dernier exercise / O exercicio final)
+	Se vier depois -> ultimo (un exercise derniere / Um Ultimo exercicio)
+Pauvre - Pobre
+	se vier antes -> pobreza(infortúnio) (Un Pauvre garçon / um probre garoto)
+	Se vier depois -> pobreza(falta de dinheiro) (Un garçon pauvre / Um garoto Pobre)
+cher - Caro
+	Se vier antes -> Querido (Un cher ami / Um querido amigo)
+	Se vier depois -> caro(Un chaussettes cher / Um sapato caro)
+
+
+### Exercícios:
+
+![[Exercicio6FR.png]]
+
+![[Pasted image 20250521214405.png]]
+

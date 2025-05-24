@@ -1,0 +1,1 @@
+![[ExercicioErrado1FR.png]]
