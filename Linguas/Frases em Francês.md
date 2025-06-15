@@ -1,3 +1,6 @@
+# Sobre a escrita:
+
+Detalhes sobre a ordem em que frases francesas são montadas.
 # Frases prontas
 
 ### Bonjur Madamme, un thé s'il vous plaît -
@@ -85,7 +88,7 @@ de - de
 Quelque - qualquer
 Part - Lugar (Quando junto do "Quelque")
 
-# Outras frases:
+# Outras frases e expressões:
 
 Eu estou no trabalho - Je suis au Travail = Je suis a le travail
 	je suis - primeira pessoa do singular conjugada
@@ -114,9 +117,65 @@ Tudo esta muito caro no supermercado - Tout est bien cher en supermarché
 	supermarché - substantivo 'supermercado'
 	como o objetivo é dizer que as coisas são 'muito caras' o bien vai junto ao chér, pois ele vira um aumentativo do adjetivo.
 
-
 Ce sont des ennuyeux enfant - Elas são crianças chatas
 	Ce sont - Verbo indefinido(Pois o adjetivo modifica o substantivo)
 	des - artigo indefinido no plural 
 	ennuyeux - adjetivo
 	enfant - substantivo 'crianças'; é mudado pelo adjetivo ennuyeux
+
+Quelle heure est-il - Que horas são:
+	Quelle -> Substantivo 'Qual'
+	Heure -> Substantivo 'hora'
+	est-il -> Inversão verbal(Terceira pessoa do singular)
+
+Quel âge avez-vous(Quel âge as-tu) -> Qual a sua idade
+
+Être à l'heure -> Esta no horário (L'heure = O horario)
+Être en retard -> Esta atrasado (En retard = Em atraso)
+Être en avance -> Esta adiantado(En avance = adiantado)
+
+Être d'accord (Avec) -> Estar de acordo (com)
+	O uso da preposição *Avec* é opcional se *D'accord* vier no final da frase.
+	p.ex. Je suis d'accord avec le projet -> Eu concordo/estou de acordo com o projeto
+	Je suis tout à fait (alguma coisa)-> Estou completamente (alguma coisa), pode expressar coisas próximas como "totalmente" ou "exatamente".
+
+Être en train de/d' + infinitivo -> Estar no meio de uma ação
+	O uso da expressão *en train de* recebe um verbo no infinitivo depois
+	p.ex. -> Je suis en train de Manger -> Eu estou comendo
+	Tu es en train d'étudier -> Você esta estudando
+	Nous sommes en train de travellieur -> nós estamos trabalhando
+
+Être prêt(e) (à + infinitivo) -> estar preparado(ada) (Para algo):
+	Assim como *En train De* a expressão *prêt* recebe um verbo no infinitivo, mas também recebe a preposição *à*. Se a frase for feminina fica *Prête*.
+	p.ex. je suis prêt á manger une pomme -> Estou pronto pa5ra comer uma maçã.
+	Nous sommes prêt à travailler l'aprez-midi -> Estamos prontos para trabalhar á tarde
+
+Être sur le point De/d' (Infinitivo) -> Estava prestes (A fazer algo):
+	Je suis sur le point de manger la pomme -> Estou prestes a comer a maçã.
+	Ils est sur le point de travallier -> Eles estão prestes a trabalhar
+
+Avoir ... ans -> Tenho X anos
+
+Avoir chaud/froid -> Estar quente(com calor) / Estar frio
+	j'ai chaud -> Estou com calor
+	La pizza a chaud -> A pizza esta quente
+	La pizza a froid -> A pizza esta fria
+	ils ont froid -> Eles estão com frio
+	Le chambre a chaud -> O quarto esta quente
+
+avoir Faim/Soif -> Estar com fome/sede
+	j'ai Faim et soif -> Estou com fome e sede
+	le Chien a Soif -> O cachorro esta com sede
+	Nous avons Faim -> Nós estamos com fome
+
+Avoir Sommeil -> Estar com sono
+	J'ai sommeil -> Estou com sono
+
+Avoir mal (à) -> Estar com dor:
+	j'ai mal à la tête -> Estou com dor de cabeça
+
+Avoir Raison / Tort -> Estar certo/Errado
+
+Avoir l'habitude de -> Estar acostumado a:
+	j'ai l'habitude de lire -> Estou acostumado a ler
+	j'ai l'habitude de fumée -> Estou acostumado a fumar

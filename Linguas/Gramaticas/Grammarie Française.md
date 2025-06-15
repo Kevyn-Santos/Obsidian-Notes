@@ -11,7 +11,7 @@ singular:
 
 1ª pessoa do singular - *Je* **Suis** (Eu sou)
 2ª pessoa do singular - *Tu* **Es** (Você é (informal))
-3ª pessoa do singular - *Il, elle, on* **Est** (Ele é, Ela é, Nós/Eles/Isto Somos (indefinido))
+3ª pessoa do singular - *Il, elle, on* **Est** (Ele é, Ela é, Nós/Eles/nós Somos (indefinido))
 
 Plural:
 1ª pessoa do plural - *nous* **Sommes** (Nós Somos) 
@@ -110,16 +110,327 @@ Nous Sommes étudiants - Nós somos Estudantes
 Vous êtes étudiants - Vocês são Estudantes
 Ils Sont amis - Eles são Amigos
 Elles Sont Amies - Elas são amigas
-
-#### Exercícios verbo être:
-
-![[Exercicio4FR.png]]
-
-![[Exercicio5FR.png]]
-
-
 ## Verbo Avoir:
 
+O verbo Avoir indica a posse de algo, sendo o segundo verbo mais importante do francês.
+
+Singular:
+
+J'ai (Eu tenho)
+tu as (você tem)
+il/elle/on a (Ele/Ela/nós tem)
+
+Plural:
+nous avons (Nós temos)
+vous avez (vós tens)
+ils / elles ont (Eles/Elas tem)
+
+### Exemplos de uso do Avoir:
+
+J'ai un livre - Eu tenho um livro
+Tu as un Chaussures noir - Você tem um sapato preto
+Il a une mal à la tête - Ele tem uma dor de cabeça
+Nous avons belles voitures - Nós temos belos carros
+Vous avez petit enfant - Vocês tem pequenas crianças
+Elles ont de bons l'ordineurs portables - Eles tem bons laptops
+
+## Negações e expressões de indicação:
+
+As Negações em francês são feitas com o bloco *Ne.. Pas*, onde o *Ne* vem antes do verbo conjugado e o *pas* vem após o verbo conjugado. Caso o verbo se inicie com vogal, o *Ne* é aglutinado para *N'*.
+
+### Negação com o Verbo Être:
+
+Je Ne suis Pas - Eu não sou (Je ne suis pas a bon homme)
+Tu n'es pas - Você não é (Tu n'es pas a belle femme)
+Il/Elle/On n'est pas - Ele/Ela/Nós não é (On n'est pas agréable)
+Nous Ne Sommes Pas - Nós não somos (Nous Ne sommes Pas rapides)
+Vous N'Êtes Pas - Vocês não são (Vous êtes Pas Sincères)
+Ils/Elles Ne sont Pas - Eles/Elas não são (Elles Ne Sont Pas belles femmes)
+
+### Negação com o Verbo Avoir:
+
+A negação com o Verbo Avoir segue a mesma lógica, porem, os artigos indefinidos *Un/Une/Des* viram *De/D'* após a negação.
+
+je N'ai pas - Eu não tenho (Je n'ai pas De Voiture)
+Tu N'as pas - Você não tem (Tu n'as pas d'amis)
+Il/elle/On N'a pas - Ele/Ela/Nós não temos (On n'a pas de Téléphone)
+Nous N'avons pas - Nós não temos (Nous N'avons pas de Bicyclette)
+Vous N'avez pas - Vocês não tem (Vous N'avez pas de bagages)
+Ils/Elles n'ont pas - Eles não tem (Ils N'ont pas D'argent(Eles não tem dinheiro))
+
+### Expressões de indicação Il y a / Il y en a:
+
+A expressão "Il y a" refere-se a pessoas, objetos ou ideias, e é uma expressão que denota que **há uma coisa** sendo apontada, é o equivalente ao "Há um problema", "Há alguém", "Há algo", etc.
+
+A expressão "Il y en a" refere-se também sobre pessoas, objetos e ideias, mas da a entender que há mais de uma coisa sendo apontada, é como um "Há muitos"
+
+Il y a des problèmes dans ce document - Há um problema com este documento
+Il y en a des Problèmes dans ces documents - Há problemas nestes documentos
+
+Il y a de Soir - Há noite
+Il y en a des soir - Há algumas noites
+## Os três grupos verbais e suas conjugações
+
+No Francês os verbos são divididos em três grupos, cada qual com sua conjugação regular própria, são eles: verbos terminados em *-er*, verbos terminados em *-ir*, verbos terminados em *-re*. Seguem as conjugações regulares para cada verbo e uma pequena lista de outros verbos do mesmo grupo:
+
+* *-Er*: -e, -es, -e, -ons, -ez, -ent
+	parler(Falar):
+		Je parle
+		tu parles
+		il/elle/on parle
+		nous parlons
+		vous parlez
+		ils/elles parlent
+	
+	Aimer(Amar ou gostar):
+		j'aime
+		tu aimes
+		il/elle/on aime
+		nous aimons
+		vous aimez
+		ils/elles aiment
+	
+	écouter(Escutar):
+		J'écoute
+		tu écoutes
+		il/elle/on écoute
+		nous écoutons
+		vous écoutez
+		ils/elles écoutent
+	
+	Arriver(Chegar):
+		j'arrive
+		tu arrives
+		il/elle/on arrive
+		nous arrivons
+		vous arrivez
+		ils/elles arrivent
+	
+	détester(Odiar/Detestar):
+		je déteste
+		tu détestes
+		il/elle/on déteste
+		nous détestons
+		vous détestez
+		ils/elles détestent
+	
+	étudier(Estudar):
+		j'étudie
+		tu étudies
+		il/elle/on étudie
+		nous étudions
+		vous étudiez
+		ils/elles étudient
+	
+	fermer(Fechar):
+		je ferme
+		tu fermes
+		il/elle/on ferme
+		nous fermons
+		vous fermez
+		ils/elles ferment
+	
+	habiter(Morar):
+		j'habite
+		tu habites
+		il/elle/on habite
+		nous habitons
+		vous habitez
+		ils/elles habitent
+	
+	menger(comer)
+		je mange
+		tu manges
+		il/elle/on mange
+		nous mangons
+		vous mangez
+		ils/elles mangent
+	
+	Travailler(travbalhar):
+		je Travellie
+		tu travellies
+		il/elle/on travellie
+		nous travellions
+		vous travelliez
+		ils/elles travelient
+	
+	regarder(olhar/observar):
+		je regarde
+		tu regardes
+		il/elle/on regarde
+		nous regardons
+		vous regardez
+		ils/elles regardent
+	
+	Achèter(comprar):
+		j'achete
+		tu achetes
+		ils/elle/on achete
+		nous achetons
+		vous achetez
+		ils/elles achetent
+	
+	Obs: o único verbo terminado em -er que não é conjugado desta forma é o verbo *Aller(Ir)*
+
+* *Ir* - is, is, it, issons, issez, issent
+	Choisis(Escolher/Selecionar)
+		je choisis
+		tu choisis
+		il/elle/on choisit
+		nous choisissons
+		vous coisissez
+		ils/elles choisissent
+	
+	agir(agir):
+		j'agis
+		tu agis
+		il/elle/on agit
+		nous agissons
+		vous agissez
+		ils/elles agissent
+	
+	finir(de) /Finir(par) (Finalizar/acabar (fazendo algo)):
+		je finis
+		tu finis
+		il/elle/on finit
+		nous finissons
+		vous finissez
+		ils/elles finissent
+		Obs: Se for usado *finis* é necessário a preposição *De* antes do substantivo, se for usado *Finir par* é necessária a preposição *à* e o próximo verbo no infinitivo.
+	
+	grandir(crescer)
+		je grandis
+		tu grandis
+		il/elle/on grandit
+		nous grandissons
+		vous grandissez
+		ils/elles grandissent
+	
+	grossir(ganhar peso)
+		je grossis
+		tu grossis
+		il/elle/on grossit
+		nous grossissons
+		vous grossissez
+		ils/elles grossissent
+	
+	maigrir(perder peso)
+		je maigris
+		tu maigris
+		il/elle/on maigrit
+		nous maigrissons
+		vous maigrissez
+		ils/elles maigrissent
+	
+	rougir(ficar vermelho/corado)
+		je rougis
+		tu rougis
+		il/elle/on rougit
+		nous rougissons
+		vous rougissez
+		ils/elles rougissent
+	
+	Salir(ficar sujo)
+		je Salis
+		tu salis
+		il/elle/on salit
+		nous salissons
+		vous salissez
+		ils/elles salissent
+	
+	vieillir(ficar velho)
+		je vieillis
+		tu vieillis
+		il/elle/on vieillit
+		nous vieillissons
+		vous vieillissez
+		ils/elles vieillissent
+
+* *Re* - s, s, -, ons, ez, ent(A terceira pessoa é o próprio radical):
+	Attendre(esperar por):
+		j'attends
+		tu attends
+		il/elle/on attend
+		nous attendons
+		vous attendez
+		ils/elles attendent
+	
+	vendre(vender):
+		je vends
+		tu vends
+		il/elle/on vend
+		nous vendons
+		vous vendez
+		ils/elles vendent
+	
+	Entendre(ouvir):
+		j'entends
+		tu entends
+		il/elle/on entend
+		nous entendons
+		vous entendez
+		ils/elles entendent
+	
+	perdre(perder):
+		je perds
+		tu perds
+		il/elle/on perd
+		nous perdons
+		vous perdez
+		ils/elles perdent
+	
+	répondre(à) (responder):
+		je réponds
+		tu réponds
+		il/elle/on répond
+		nous répondons
+		vous repondez
+		ils/elles repondent
+## Tempos verbais:
+
+No francês temos o passado, presente e futuro, cada qual tem suas ramificações para indicar melhor o tempo.
+
+* No presente temos:
+	Présent: Uma ação que ocorre agora
+		A conjugação deste tempo é a regular para o primeiro, segundo e terceiro grupo
+	Imperatif: Uma ordem para agora, ou seja, é o imperativo
+	Présent Progressif: Uma ação que esta no processo de completude
+
+* No passado temos:
+	Imparfait: Uma ação que estava sendo executada em um certo período
+	plus-que-parfait: Uma ação que aconteceu há muito tempo
+	passé recent: Uma ação que acabou de ser feita
+	Passé composé: Uma ação que ja foi finalizada
+
+* No futuro temos:
+	futur proche: Uma ação que será realizada muito em breve
+	futur Simple: Uma ação a ser realizada num futuro distante
+	futur Antérieur: Uma ação que, quando algo ocorrer, ja terá sido passado
+
+### Imperatif:
+
+O imperativo dos verbos seguem conjugações bem parecidas com as suas formas no présent, mas com alguns detalhes. 
+
+* O imperatif só recebe conjugações na segunda pessoa do singular(tu), e na primeira e segunda pessoa do plural(nous e vous) tanto de maneira formal quanto informal.
+* O imperatif não utiliza pronomes pessoais
+* nos verbos de primeiro grupo(er) o *-s* da segunda pessoa do singular é retirado
+* para o segundo grupo(ir), na segunda e terceira pessoa do plural as terminações *-issons e -issez* permanecem
+* Para os verbos de terceiro grupo(re), as conjugações permanecem as mesmas
+
+Parler:
+	Parle! -> Fale!
+	Parlons! -> falamos!
+	Parlez! -> falem!
+
+Agir:
+	Agis! -> Aja!
+	Agissons -> Agimos!
+	Agissez -> Ajam!
+
+Vendre:
+	vends! -> Venda
+	Vendons! -> Vendemos!
+	Vendez! -> Vendam
 # Substantivos
 
 ## Artigos masculinos e femininos
@@ -236,7 +547,7 @@ Le touriste/ La touriste
 * Algumas profissões e palavras terminadas em -e serão escritas da mesma forma tanto para o masculino quanto para o feminino
 * Para alguns substantivos os gêneros serão indicados somente pelo artigo, ou seja, a palavra não mudará, apenas o artigo mudará
 
-![[Exercicio1FR.png]]
+
 ### Artigos indefinidos
 
 Artigo indefinido singular Masculino: un
@@ -291,13 +602,6 @@ une bibliothèque(une - bi-blío-thé-kha) -> des bibliothèques (de-bi-blío-th
 un choix-> des choix - uma escolha / algumas escolhas
 le cour -> les cours - o curso / os cursos
 le travail -> les travaux - o trabalho / os trabalhos 
-
-#### Exercícios :
-
-![[Exercicio2FR.png]]
-
-![[Exercicio3FR.png]]
-
 # Adjetivos:
 
 ## Adjetivos descritivos:
@@ -490,11 +794,3 @@ Pauvre - Pobre
 cher - Caro
 	Se vier antes -> Querido (Un cher ami / Um querido amigo)
 	Se vier depois -> caro(Un chaussettes cher / Um sapato caro)
-
-
-### Exercícios:
-
-![[Exercicio6FR.png]]
-
-![[Pasted image 20250521214405.png]]
-

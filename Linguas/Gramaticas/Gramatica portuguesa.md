@@ -1,4 +1,4 @@
-
+ 
 # Fonética
 
 ## Vogais e semivogais
@@ -454,7 +454,7 @@ A frase é composta de *Períodos* e *orações*, sendo que uma *oração* esta 
 
 ### locuções verbais
 
-Antes de explicar as orações e períodos é necessário falar sobre as locuções verbais. Elas são a junção de um verbo auxiliar á um verbo principal, de forma que, a remoção do primeiro(Verbo auxiliar) dificulta o sentido do segundo, e a remoção do segundo(Verbo principal) remove o sentido da frase.
+Antes de explicar as orações e períodos é necessário falar sobre as locuções verbais. Elas são a junção de um verbo auxiliar á um verbo principal, de forma que, a locução busca um detalhamento ou contexto temporal do verbo principal que não existiria nas suas conjugações normais, em outras palavras, a locução busca detalhar o tempo do verbo principal, ou seja, se aconteceu em um passado próximo, se vai acontecer em um futuro próximo, se será passado quando for feito, etc.
 
 O verbo principal sempre vira conjugado nominalmente, ou seja, ele estará escrito no *Indicativo, Gerúndio, ou particípio*.
 
@@ -477,7 +477,7 @@ Dentro das frases nós possuímos orações, estas são definidas pela quantidad
 
 **A frase contem mais de uma oração quando possui mais de um verbo explicito ou implícito, podendo ele estar na forma simples ou em uma locução verbal:**
 
-*"Eu acordo, bebo café, trabalho, me perco em fumo e durmo"* ->A frase contem cinco orações, denotados pelos verbos *Acordar, beber, trabalhar, fumar, e dormir*
+*"Eu acordo, bebo café, trabalho, me perco em fumo e durmo"* ->A frase contem cinco orações, denotados pelos verbos *Acordar, beber, trabalhar, perder, e dormir*
 
 *"Os anos são degraus; a vida, a escada."* -> A frase contem o verbo *ser* explicito, e o verbo *ser* implícito antes de escada (*a vida, é a escada*).
 
@@ -486,10 +486,189 @@ Dentro das frases nós possuímos orações, estas são definidas pela quantidad
 O período é a divisão entre orações dentro da frase, são como caixas que isolam uma oração da outra com pontuações bem definidas, sendo finalizados em: virgula, ponto final, ponto de interrogação, ponto de exclamação, reticencias e, algumas vezes, dois pontos.
 Os períodos se dividem em *Simples* e *Compostos*.
 
-Um período é simples quando possui apenas uma oração, e é composto quando possui mais de uma oração.
+Um período é simples quando possui apenas uma oração, e um período é composto quando possui mais de uma oração.
 
 Ex período simples e composto:
 
 *"Caiu a madrugada"* -> como só temos um verbo nós possuímos apenas uma oração e, por consequência, um período simples.
 
 *"Eu acordo, bebo café, trabalho, me perco em fumo e durmo"* -> Como temos cinco verbos nós possuímos cinco orações e, por consequência, um período composto(Em outras palavras, cinco períodos).
+
+## Termos essenciais da oração:
+
+Em uma oração os termos mais importantes são *O sujeito* e *o predicado*. *O sujeito* é de quem estamos falando em uma oração, *O predicado* é o que estamos falando do Sujeito.
+
+O Sujeito e o predicado podem não estar explícitos em uma oração, nestes casos dizemos que a frase possui *Sujeito Elíptico ou predicado Elíptico*, por consequência, a frase é dita como *Elíptica*.
+	Eu estudo à noite -> O sujeito da frase é *Eu* enquanto o predicado é *Estudar à noite*
+	Andei sozinho na cidade -> O sujeito *Eu* esta implícito(Sujeito Elíptico), o predicado é *Andar sozinho na cidade*
+	boa cidade, franco da rocha -> O sujeito da frase é *Franco da rocha*, mas o verbo que denota o que é dito dela esta implícito, mesmo sendo possível averiguar que é o verbo *ser* na terceira pessoa do singular a sua omissão torna o Predicado Elíptico
+
+### Sintagma Nominal e Verbal
+
+Ainda dentro de uma oração, em uma análise mais profunda, possuímos os *Sintagmas Nominais(SN)* e os *Sintagmas Verbais(SV)*. 
+O primeiro pode servir de *sujeito, objeto, predicado, complemento adnominal, adjunto adnominal/adverbial, agente da passiva, vocativo ou aposto*, desta forma, **ele pode ser o sujeito, núcleo ou partes que constituem a oração.**
+Enquanto **o segundo serve como predicado para o primeiro**, indicando a ação ou estado do sujeito.
+
+Tomemos a frase: **Este aluno obteve recentemente uma boa nota**
+Sujeito -> Este aluno
+Predicado -> Obteve uma boa nota
+
+Um Sintagma nominal é uma estrutura onde o núcleo(Ponto principal) de um pedaço da oração é um substantivo. Desta forma temos dois sintagmas nominais na oração, pois há dois substantivos na oração:
+sujeito:
+Este -> Pronome demonstrativo (DET)
+Aluno -> Substantivo (N)
+
+Predicado:
+Uma -> numeral (DET)
+boa -> Adjetivo (MOD)
+nota -> Substantivo (N)
+
+Um Sintagma Nominal Admite dois elementos para contextualizar o Substantivo (N):
+Determinantes (DET): Artigos, numerais, pronomes adjetivos -> Eles permitem indicar pontos como gênero, numero e distancia relativa do substantivo mencionado.
+
+Modificadores (MOD): Adjetivos, Expressões Adjetivas -> Eles permitem dar características para o substantivo mencionado.
+
+O ultimo ponto importante, só há um Sintagma nominal que contenha o sujeito, e esta à esquerda do verbo. Isso pois o sistema de escrita latino é o SVO(Sujeito-Verbo-Objeto).
+
+O sintagma verbal constitui o predicado da oração. Ele por padrão possui um verbo que pode ser complementado por modificadores(MOD) e Sintagmas Nominais(SN). Se o verbo dentro do Sintagma Verbal for *Significativo* então este verbo será o seu núcleo.
+
+Na frase de exemplo temos:
+Obteve -> Verbo (V)
+Recentemente -> Adjetivo (MOD)
+
+Obs: um verbo significativo é aquele que expressa uma ação ou estado, em outras palavras, é o verbo principal.
+
+Concluindo:
+Na frase: **Este aluno obteve recentemente uma boa nota** temos:
+
+Este aluno -> Sintagma nominal 1 e sujeito da oração(Contendo um DET e um N)
+obteve recentemente -> Sintagma Verbal que faz parte do predicado(Contendo um V e um MOD)
+	Uma boa nota -> Sintagma verbal 2 e parte do predicado(Contendo um DET, um N e um MOD)
+
+O resto do estudo sobre Sujeito e predicado explicara melhor os usos do SN e SV.
+
+### Sujeito:
+
+O Sujeito na primeira e segunda pessoa do singular e plural é, respectivamente, eu, tu, nós, vós. Na terceira pessoa(Ele/Ela) o sujeito pode ter como núcleo(Ou seja, como referencia do verbo):
+	Um substantivo:
+		O carro bateu / A mola saiu / A Vela apagou
+	um pronome pessoal no singular ou plural:
+		 Ele comeu; Ela dormiu; Eles andaram; Elas nadaram
+	um pronome demonstrativo, interrogativo, relativo ou indefinido:
+		Isto é ruim; Quem disse isso; Ele fez algo Que o magoou; Tudo ocorreu assim
+			Obs: Pronomes relativos retomam um sujeito, ou seja, se referem a um sujeito que ja esta na oração
+	Um numeral:
+		os Dois andaram pela praia / ...o Segundo falou...
+	uma expressão ou palavra substantivada:
+		Infanta, no exílio amargo, só o **existirdes** me consola
+			Obs: Palavras e expressões substantivadas são palavras ou expressões de uma classe gramatical que, em um contexto especifico, são tratadas como substantivos.
+	uma oração substantiva subjetiva
+		Era forçoso **que fosse assim**
+			Obs: Uma oração Substantiva Subjetiva, é uma oração que contenha um substantivo que será tratado como sujeito, elas aparecem com um pronome relativo e o verbo estará na terceira pessoa do singular, por fim, esta oração pode ser substituída por um pronome demonstrativo(isso, isto). 
+
+Destes casos as orações podem conter sujeitos:
+	simples:
+		 A oração contem apenas um núcleo.
+	compostos:
+		A oração contem mais de um núcleo(mais de um: substantivo, Pronome pessoal, palavra/ expressão substantivada, oração substantiva subjetiva), ou seja, é composto quando se esta falando de mais de uma pessoa.
+	ocultos:
+		É oculto quando não se expressa diretamente o sujeito, mas este pode ser identificado nas entrelinhas, tal identificação é feita pela:
+			desinência verbal: 
+				verificamos o artefato -> O sujeito é expresso pela desinência -mos
+			pela presença do sujeito em outra oração, esta outra oração pode estar no mesmo período ou de período contiguo
+				Soropita ali viera, na véspera, lá dormira; e agora retornava a casa.:
+					Soropita ali viera -> primeira oração
+					lá dormira; -> segunda oração, o ponto e virgula delimita o período
+					e agora retornava para casa -> terceira oração
+					O sujeito é explicito na primeira oração.
+					Na segunda oração o sujeito é mencionado na oração anterior, mas esta no mesmo período.
+					Na terceira oração o sujeito é mencionado em uma oração do periodo diretamente anterior.
+				Guilhermina bocejou. Iria adormecer? Pôs-se a calcular as horas. -> O sujeito de bocejou, iria adormecer, e calcular é **Guilhermina**, que apareceu no primeiro período. 
+	indefinidos:
+		É indefinido quando não se sabe ou não importa quem é o sujeito, neste caso o verbo dele aparece:
+			Ou na terceira pessoa do plural:
+				**Observaram** uma chuva de asteroides em uma noite brilhante -> Como não é definido quem observou, o verbo é colocado na terceira pessoa do plural
+			Ou na terceira pessoa do singular junto do pronome *se*:
+				**Precisa-se** de mais afinco -> Como não é definido quem ou o que precisa de mais afinco, o verbo é colocado na terceira pessoa do singular junto do pronome *se*
+	ou não conter sujeitos:
+		No caso de orações sem sujeito, não é atribuída ação ou estado a algum ser, desta forma o verbo da oração é ***Impessoal*** e o sujeito é dito como ***Inexistente***. Os principais casos de sujeitos inexistentes são:
+			Em fenômenos da natureza:
+				**choveu** muito à noite
+			Com o verbo haver tendo o sentido de "existir":
+				**Haviam** papoulas nos campos
+			Com os verbos *haver, fazer e ir*, indicando tempo decorrido:
+				Havia muito tempo desde isso.
+				Faziam dez dias desde que ocorreu.
+				Vai para uns quinze anos escrevi uma crônica geral
+			Com o verbo *Ser* indicando tempo num geral:
+				Era Noite
+				Era inverno
+				Era por altura das lavouras
+
+por fim, o sujeito pode expressar uma:
+Ação:
+	Da ação o sujeito pode: executar uma ação, receber uma ação, ou executar e receber uma ação. Se uma ação é executada ele é o *agente* daquela ação. se ele recebe uma ação ele é o *Paciente* da ação. Se ele executa uma ação e a recebe ao mesmo tempo ele é um *Agente Paciente* da ação. Por exemplo:
+	João bateu em Pedro -> Como João esta executando a ação de bater, ele tem uma *ação ativa* e é *agente*.
+	Pedro apanhou de João -> Como Pedro recebeu a ação, ele tem uma *ação passiva* e é *paciente*(ou **objeto direto**), enquanto João é o ***agente da passiva***, ou seja, ele é quem inflige uma ação á quem recebe
+	João se bateu -> Como João executou a ação de bater e recebeu a ação, ele tem uma ação ativa-passiva. É como se ele fosse agente e paciente ao mesmo tempo.
+
+Estado:
+	Denota o estado do sujeito, uma atitude do sujeito, ou algo que se desenvolve no sujeito. Neste caso ele não é agente nem paciente de uma ação, ele é o núcleo onde o verbo se desenvolve. Por exemplo:
+	Pedro ficou doente -> Ele não inflige a ação de doença e nem recebe a ação de doença, o verbo esta se desenvolvendo nele
+	João Cresceu -> Ele não executa a ação de crescer e nem recebe esta ação, isso se desenvolve nele.
+	Maria é magra -> Ela não recebe nem inflige uma ação, isso só denota um estado, característica, dela.
+
+
+### Predicado:
+
+O predicado pode ser *Nominal, verbal, ou Verbo-nominal*:
+
+#### Predicado nominal:
+
+Predicados nominais são formados por um *verbo de ligação* e um *predicativo*, e eles denotam um estado ou a transição e mudança de um estado. Em suma, um predicado Nominal é uma estrutura que utiliza um verbo de ligação para ser o elo entre o sujeito e um predicativo.
+
+Um verbo de ligação serve para ligar duas ideias diferentes sem trazer uma ideia nova. Eles não são verbos principais, são apenas pontes, ligações, entre ideias ou os sujeitos e os predicados.
+O verbo de ligação(Copulativo) pode expressar:
+	Estado permanente: Um estado ou característica que não muda, p.ex. "Eu **sou** alegre"
+	Estado transitório: A passagem de um estado á outro, p.ex. "Suas falas **começaram** a me frustrar".
+	Mudança de estado: Passar completamente por uma mudança de estado, p.ex. "**fiquei** frustrado"
+	Estado constante: A permanência em um certo estado, p.ex. "**Continuei** frustrado horas depois".
+	Aparência de estado: O parecer estar em um estado, p.ex. "Ainda assim eu **parecia** calmo"
+
+*O Predicativo* é o que caracteriza o sujeito ou o objeto, atribuindo para ele um estado, qualidade ou condição, em outras palavras, ele é o núcleo de um predicado nominal, ele é quem efetivamente caracteriza o sujeito ou objeto, enquanto o verbo de ligação serve apenas para conectar as ideias. 
+	**Se caracterizar o sujeito**(predicativo do sujeito): 
+		* Pode ser formado por: Verbo de ligação ou verbos transitivos e intransitivos (Nos predicados Verbo-nominais).
+		* pode vir precedido de preposições ou do conectivo *como*
+	**Se caracterizar o Objeto Direto / indireto**(Predicativo do Objeto):
+		* Só aparece nos predicados Verbo-Nominais como substantivos ou adjetivos;
+		* pode vir precedido de preposições ou do conectivo *como*
+		* pode ser formado por: **Verbos transitivos + complemento + uma qualidade que se refere ao objeto**
+
+Num geral, ele pode ser representado por: 
+* Substantivos ou expressões substantivadas
+* Adjetivos ou locuções adverbiais
+* Pronomes e numerais
+* Orações substantivadas predicativas
+	(Uma oração que serve de predicado de uma oração principal, geralmente precedida por um verbo de ligação e que podem ser introduzidas por pronomes interrogativos(que, quem, qual, onde, etc.)).
+ 
+#### Predicado Verbal:
+
+Um predicado verbal é aquele cujo núcleo esta em um *verbo significativo*, ou seja, a principal declaração sobre o sujeito é um verbo que denota efetivamente uma ação. Este *verbo significativo* pode ser **transitivo ou intransitivo**.
+
+* Um verbo intransitivo é aquele cuja ação esta completamente expressa no verbo, ou seja, não é necessário mais nada para contextualizar o verbo, ele por si só denota toda ação. 
+	p.ex. "O avião voou"-> o verbo *voar* já é uma ação completa, não é necessário mais nada para contextualiza-lo, logo, voou é um verbo intransitivo.
+
+Em um verbo transitivo são necessários mais elementos na oração para se ter o significado completo do verbo, ou seja, a ação não esta completamente contida no verbo, ela precisa de auxilio para fazer sentido. Eles podem ser desmembrados em: transitivo direto, transitivo indireto, e transitivo direto indireto. 
+	**Verbo Transitivo Direto** -> São os verbos que, para estender sua ação á um objeto, não precisam de preposição. As coisas a que um verbo transitivo direto se refere são os *objetos diretos*.
+		p.ex. "Vou ver o Doente" -> a ação *ver* precisa de outros elementos para ter sentido, porem não precisa de uma preposição para se juntar ao objeto do verbo. *O Doente* é o objeto direto de ver.
+	**Verbos transitivos indiretos** -> São os verbos que precisam de uma preposição para os ligar ao objeto mencionado, e este é chamado de *Objeto indireto*. As preposições mais comuns aos verbos transitivos indiretos são: "de", "a", "em", "para", "com", etc.
+		p.ex.  "Perdoem ao pobre tolo" -> A ação de *perdoar* precisa de um contexto para ter sentido, esse contexto esta ligado ao verbo pela preposição *ao*. Desta forma *perdoem* é um verbo transitivo indireto e *pobre tolo* é um *objeto indireto*, pois é necessária a preposição *ao* como ligação entre um e outro.
+	**Verbo transitivo Direto Indireto** -> São aqueles cujas ações expressas não precisam de uma preposição mas ao mesmo tempo precisam de uma preposição. Os objetos dessas ações são os *Objetos diretos e indiretos*.
+		p.ex. O Sucesso de seu gesto não deu paz ao Lomba -> A ação *dar* precisa de outros elementos para fazer sentido, dentre esses elementos, não é necessária preposição para o substantivo *paz*(Objeto direto), mas é necessária a preposição *ao* para o substantivo *Lomba*(Objeto indireto). Desta forma, *deu* é um verbo Direto-indireto enquanto *paz ao Lomba* é um objeto Direto-indireto.
+
+#### Predicados Verbo-nominal:
+
+São os predicados formados por um verbo significativo e um predicado Nominal, ou seja, eles denotam tanto uma ação efetiva quanto um estado do sujeito, e por conseguinte possuem dois núcleos verbais. 
+	p.ex. Paulo saiu despreocupado -> Sair é a ação efetiva tomada por Paulo(Verbo significativo), porem a oração denota que ele ele estava em um estado despreocupado(Predicativo do sujeito), sendo assim este predicado(Verbo-nominal) é formado por um verbo significativo + um predicado nominal
+
+## Termos integrantes da Oração
