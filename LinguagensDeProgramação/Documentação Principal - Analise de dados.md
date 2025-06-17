@@ -108,8 +108,77 @@ A integridade dos dados pode ser verificada com um controle de qualidade e uma g
 
 #### Ferramentas para coleta de dados:
 
+Por fim, as ferramentas podem variar de acordo com a coleta que esta sendo feita. Uma abordagem mais clássica é fazer observações e pesquisas de campo, mas em termos mais atuais, utilizam-se ferramentas como:
+
+Google sheets, surveyMonkey- para formulários de pesquisa
+Excel - Para gerenciamento de resultados em planilhas
+teams - para entrevistas
+bibliotecas como Request e beautifulSoup - para webscrapping
+SQL - Para coleta de dados advindos de bancos de dados relacionais
+Pandas - Para leituras de arquivos diversos
+
+### Limpeza:
+[O que é e como fazer Limpeza de dados](https://www.tableau.com/learn/articles/what-is-data-cleaning#:~:text=tools%20and%20software-,What%20is%20data%20cleaning%3F,to%20be%20duplicated%20or%20mislabeled.)
+
+A limpeza de dados consiste principalmente no tratamento de quatro coisas: Dados faltantes, dados duplicados, Dados atípicos(muito fora da média), e dados no formato incorreto. Ou seja, é corrigir ou remover dados incompletos, faltantes, mal formatados, corrompidos, duplicados ou muito extremos. O processo varia entre as bases de dados, e a aplicação prática da limpeza muda dependendo da ferramenta(por exemplo, a limpeza será feita com um conjunto de fórmulas no python, mas será feita de outra forma no Excel), mas há um caminho que pode ser seguido no tratamento deles:
+
+1. **Remover valores duplicados ou irrelevantes**
+	Quando os dados vem de diversas fontes ou departamentos eles podem estar duplicados, desta forma é melhor remover estes dados para evitar estatísticas imprecisas. Outro ponto é a remoção de dados irrelevantes, pois, as análises não serão feitas no conjunto todo, geralmente se deseja responder um número limitado de questões com cenários ou agentes específicos, portanto, a remoção de qualquer coisa fora deste escopo tornará a analise mais eficiente. 
+	Por exemplo, se deseja verificar quais clientes compraram um produto X no primeiro trimestre dos últimos três anos, mas sua base contem vendas de diversos meses dos últimos três anos. Desta forma será necessário excluir todos os trimestres com exceção do primeiro para esta análise, e será necessário remover qualquer venda duplicada do produto X, pois se quer somente os clientes que compraram aquele produto, não quantas vezes eles compraram.
+
+2. **Corrigir erros estruturais**
+	Corrigir erros como nomenclatura, capitalização, classificação, e tipos de dado, para deixa-los todos num padrão.
+
+3. **Remover valores atípicos(Outliers) indesejados**
+	Em primeiro lugar, um valor atípico é aquele muito disperso do resto dos dados ou da média deles. Por exemplo, temos três clientes, cada um tem os valores 1,2 e 3, é colocado na conta um quarto cliente, mas seu valor é 7. Este quarto cliente é um valor atípico.
+	Algumas vezes os dados podem mostrar estes valores muito discrepantes ou que não fazem parte do escopo trabalhado, se esses dados atípicos forem um problema para o que esta sendo analisado eles podem ser removidos, mas isso depende do objetivo do projeto, pois você pode estar procurando esses valores atípicos.
+	Por exemplo, dos clientes que compraram o produto X, a empresa deseja aqueles que mais gastaram dinheiro no produto. Se for calculada uma média ela vai ficar muito alta devido a um alto gasto de algumas pessoas, esses valores mais altos são os valores atípicos(Outliers) desejados pela empresa.
+
+4. **Lidar com dados faltantes**
+	Há varias formas de lidar com dados faltantes, visto que vários algoritmos não aceitam dados faltantes, mas nenhuma é perfeita, pois isso prejudicaria a integridade dos dados, as duas principais opções são: Remover os dados ou substitui-los por outras observações(como uma média de dados vizinhos)
+
+5. **Validação**
+	Após a limpeza será possível verificar se: Os dados fazem sentido, se eles estão alinhados com o campo de trabalho, se eles podem trazer ideias e auxilio para o trabalho e se eles podem ajudar no desenvolvimento das próximas teorias. Caso algo falhe, será possível verificar se é por conta de dados ruins ou uma limpeza mal feita.
+
+Uma forma de verificar se um conjunto de dados é bom é a partir de uma análise sobre:
+* A validade dos dados - Se eles são alinhados com as regras ou modelo de negócios da empresa
+
+* A precisão dos dados - Se eles representam o mais próximo possível os eventos ou entidades reais analisados
+
+* A completude dos dados - Se os dados necessários são todos conhecidos e estão presentes
+
+* A consistência dos dados - Se os dados mantem consistência em todos os sistemas e fontes 
+
+* A exclusividade e confiabilidade dos dados - Se os dados são únicos e vem de fontes confiáveis
+
+* A atualização dos dados - Se os dados estão o mais atualizados quanto possível.
+
+Resumindo de maneira bruta, é possível verificar se um dado é bom se ele: Vier de fontes confiáveis, estiver atualizado, manter a consistência e unicidade, for preciso com as entidades reais e estiver alinhado com o modelo de negócios.
+
+#### Pratica baseada em python:
+
+[Python para analise de dados - Limpeza](https://wesmckinney.com/book/data-cleaning)
+
+A biblioteca Pandas do python proporciona vários meios de fazer a limpeza dos dados, as principais funções, parâmetros e utilidades de cada uma serão descritos nesta secção.
+
+##### Valores faltantes:
+Em python, a identificação de valores faltantes pode ser feita com a função *isna* (Ou *Isnull*, elas são iguais). Esta função retorna uma série booleana onde os valores ausentes(NAN || NA) são verdadeiros, fazendo assim o mapeamento dos valores. Após identificar os valores ausentes, eles podem ser deletados ou preenchidos utilizando as funções *Dropna* e *Fillna*.
+
+A função *Dropna* remove as linhas ou colunas que contenham valores nulos, criando uma cópia do DF original e alterando apenas a cópia. Por padrão, caso haja ao menos um valor nulo na linha ou coluna ela será deletada, mas há parâmetros específicos que podem modificar o funcionamento da função.
+	**How** -> Contem os parâmetros *any* e *all*. O primeiro exclui a linha/coluna caso haja ao menos um valor NA nela, o segundo faz a exclusão somente se todos os valores forem NA. 
+	**Axis** -> 0 faz a exclusão de linhas; 1 faz a exclusão de colunas
+	**Thresh** -> Define um limite mínimo de valores NA que uma linha/coluna precisa ter para não ser excluída.
+
+A função Fillna preenchera os dados vazios de diversas formas, as principais são:
+	**Valor constante(Escala**r) -> Se for passado um único valor, então todos os valores ausentes serão substituídos por ele
+	**Series/dict/Dataframe** -> Permite especificar um valor para cada linha/coluna do DF. Os valores não podem ser listas.
+	**Method** -> possui os valores 'bfill' e 'ffill'. A principal diferença entre eles é que: dado um valor não nulo próximo de um NA. Com 'ffill' todos os valores NA a frente deste não nulo serão preenchidos com o valor dele, e com o 'bfill' o preenchimento será feito nos NA atrás dele. Em termos mais simples e grossos, ffill preenche todos os NA a frente de um numero com o valor daquele numero, e bfill faz o mesmo porem para os números que estão atrás.
+	**Limit** -> Este parâmetro pode acompanhar o *method*, indicando quantas linhas/colunas de valores vazios devem ser preenchidos pelo parâmetro.
+	**Estatísticas** -> Por fim, é possível utilizar estatísticas como média, mediana, desvio padrão, máximo, mínimo, etc. para preencher os valores vazios, bastando utilizar a formula correspondente dentro da função
 
 ## Quais as ferramentas de analise dados
+
+
 
 ## Metodologia da analise de dados
 
