@@ -11,6 +11,11 @@
 
 ![[Exercicio5FR.png]]
 
+![[Exercicio10FR.png]]
+
+![[Exercicio11FR.png]]
+
+
 ## Adjetivos:
 
 ![[Exercicio6FR.png]]

@@ -133,6 +133,11 @@ Quel âge avez-vous(Quel âge as-tu) -> Qual a sua idade
 Être à l'heure -> Esta no horário (L'heure = O horario)
 Être en retard -> Esta atrasado (En retard = Em atraso)
 Être en avance -> Esta adiantado(En avance = adiantado)
+	Uma diferenciação importante é entre "Dans" e "En". 
+	O primeiro é usado, dentre outras coisas, para se indicar que esta dentro de um lugar, de um espaço delimitado como uma sala por exemplo; 
+	O segundo é usado, dentre outras coisas, para indicar um meio de transporte ou expressões de tempo, como "En avance". Portanto:
+	Je suis **dans** la voiture -> Eu estou **Dentro** do carro (Como um espaço físico)
+	Je suis **en** Voiture -> Eu estou **no** carro (Como um meio de transporte) 
 
 Être d'accord (Avec) -> Estar de acordo (com)
 	O uso da preposição *Avec* é opcional se *D'accord* vier no final da frase.

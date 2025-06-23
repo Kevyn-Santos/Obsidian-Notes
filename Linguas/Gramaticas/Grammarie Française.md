@@ -144,7 +144,7 @@ Je Ne suis Pas - Eu não sou (Je ne suis pas a bon homme)
 Tu n'es pas - Você não é (Tu n'es pas a belle femme)
 Il/Elle/On n'est pas - Ele/Ela/Nós não é (On n'est pas agréable)
 Nous Ne Sommes Pas - Nós não somos (Nous Ne sommes Pas rapides)
-Vous N'Êtes Pas - Vocês não são (Vous êtes Pas Sincères)
+Vous N'Êtes Pas - Vocês não são (Vous N'êtes Pas Sincères)
 Ils/Elles Ne sont Pas - Eles/Elas não são (Elles Ne Sont Pas belles femmes)
 
 ### Negação com o Verbo Avoir:
@@ -394,7 +394,6 @@ No francês temos o passado, presente e futuro, cada qual tem suas ramificaçõe
 	Présent: Uma ação que ocorre agora
 		A conjugação deste tempo é a regular para o primeiro, segundo e terceiro grupo
 	Imperatif: Uma ordem para agora, ou seja, é o imperativo
-	Présent Progressif: Uma ação que esta no processo de completude
 
 * No passado temos:
 	Imparfait: Uma ação que estava sendo executada em um certo período
