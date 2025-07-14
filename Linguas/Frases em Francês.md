@@ -93,7 +93,7 @@ Part - Lugar (Quando junto do "Quelque")
 Eu estou no trabalho - Je suis au Travail = Je suis a le travail
 	je suis - primeira pessoa do singular conjugada
 	au - Contração entre a preposição *à* e o artigo definido *le*. por isso poderia ser substituído por *à le travail*. 
-	Travail - substantivo 'trabalhar'
+	Travail - substantivo 'trabalho'
 
 Nós somos atendentes pobres- Nous Sommes préposé et pauvre
 	Nous Sommes - Primeira pessoa do plural conjugada
@@ -117,7 +117,7 @@ Tudo esta muito caro no supermercado - Tout est bien cher en supermarché
 	supermarché - substantivo 'supermercado'
 	como o objetivo é dizer que as coisas são 'muito caras' o bien vai junto ao chér, pois ele vira um aumentativo do adjetivo.
 
-Ce sont des ennuyeux enfant - Elas são crianças chatas
+Ce sont des enfants ennuyeux - Elas são crianças chatas
 	Ce sont - Verbo indefinido(Pois o adjetivo modifica o substantivo)
 	des - artigo indefinido no plural 
 	ennuyeux - adjetivo

@@ -1,0 +1,6 @@
+
+# Teoria
+
+
+# Pratica em python
+

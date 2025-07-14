@@ -1,4 +1,9 @@
+#AnaliseDados #programação 
+
 [Caminhos na carreira de análise de dados](https://roadmap.sh/data-analyst/career-path)
+[[Análise exploratória de dados(EDA)]]
+[[Data Mining]]
+
 
 ## O que é analise de dados
 
@@ -12,22 +17,54 @@ Um ponto importante: a analise de dados é a junção de habilidades técnicas c
 
 ## Quais os tipos de analise de dados
 
+[Os quatro tipos de análise de dados](https://careerfoundry.com/en/blog/data-analytics/different-types-of-data-analysis/#descriptive-analytics-what-happened)
+
 São quatro os principais tipos de analise de dados: Descritiva, Diagnostica, Preditiva e Prescritiva, em resumo elas tratam do que aconteceu, porque aconteceu, o que pode acontecer e o que pode ser feito.
 
 ### Análise descritiva:
 
-O foco deste tipo de análise é descrever o que aconteceu, ou seja, ela coleta, trata, organiza, resume(sumariza) e exibe os dados, isso é feito com duas técnicas principais: **A agregação de dados** e **A mineração de dados**
+[O que é análise descritiva](https://careerfoundry.com/en/blog/data-analytics/descriptive-analytics/)
+
+O foco deste tipo de análise é descrever o que aconteceu, ou seja, ela resume(sumariza) e exibe os dados, isso é feito após o pré-processamento dos dados(coleta e limpeza), principalmente com a técnica de **agregação de dados**.
 
 A agregação busca apresentar os dados de maneira resumida, mas sem muito detalhe, é como se ela mostrasse as estatísticas mais básicas de um conjunto de dados.
 
-já **mineração dos dados** busca algo mais detalhado e robusto, transformando em gráficos e dashboards as tendencias e padrões dos dados brutos. Ela não se resume somente a isso, podendo utilizar conceitos e técnicas dos quatro tipos de analise de dados e sendo necessário um estudo muito mais profundo deste processo.
+Há também a [[Data Mining |Mineração de dados]], ela pode se apoiar na analise descritiva, porem busca algo mais detalhado e robusto, transformando as tendencias e padrões dos dados brutos em gráficos e dashboards, portanto ela é mais associada a analises diagnosticas e preditivas, por conta disso, um estudo mais profundo dessa técnica é necessário.
 
 Em geral, a analise descritiva trata do resumo dos dados, extraindo estatísticas, os sumarizando e os aplicando em dashboards, indicadores e KPI's. Ou seja, ela trabalha tanto com o tratamento e limpeza de dados quanto com a visualização deles.
+
+#### Aprofundamento:
+
+No fundo, a analise descritiva segmenta os conjuntos de dados em pedaços menores, extraindo e resumindo suas características e pontos mais importantes, por isso de seu nome, pois o foco principal é contar o que aconteceu a partir do uso de estatísticas básicas como, medidas de distribuição(frequência ou contagem), tendencias centrais(moda, media e mediana), variações(Desvio padrão e variância), quartis e porcentagens, sem se preocupar em como ou porque aconteceu. Essa extração de estatísticas pode ser feita em ferramentas como Python(pandas), R(Dplyr), Excel, etc.
+
+Ou seja, ela é o ponto de partida para uma analise mais profunda, como a diagnostica ou a preditiva e, ainda assim, serve bem para diversos tipos de analises, por exemplo, financias, trafego em sites, pesquisas, vendas, etc. A exibição dessas estatísticas é geralmente feia por meio de gráficos(Histograma, linha, pizza, barra, caixa, etc.) ou tabelas dinâmicas, em ferramentas como Python(matplotlib/seaborn, plotly, etc.), R(Ggplot2) Excel, PowerBi, Tableau, etc. 
+
+Neste ponto fica evidente que a analise descritiva providencia uma visão intuitiva e direta dos dados coletados, focando nos pontos chave, sendo bem simples de trabalhar, pois, utiliza apenas matemática estatística básica no seu funcionamento, entretanto, analises mais profundas e replicáveis, que expliquem porque e como algo aconteceu, ou, o que pode acontecer, não podem ser feitas com ela, sendo necessário o uso das analises diagnostica e preditiva para tal.
+
+OBS: Será necessário aprender os conceitos e usos de estatística básica, principalmente em medidas de distribuição, tendencias centrais, variâncias e quartis.
 ### Análise diagnostica:
 
-O objetivo dela é entender porque as coisas aconteceram, isso é feito analisando anomalias, tendencias, e padrões nos seus dados, ou seja, discrepâncias, valores muito baixos, valores muito altos, correlações, causas prováveis, entre outros. neste ponto o analista busca fontes adjacentes de dados que podem ajudar a explicar essas anomalias, como a demora em um processo bancário, uma taxa de juros muito alta ou muito baixa ou mesmo a opinião publica sobre o produto ou empresa.
+[O que é análise Diagnostica - HBS](https://online.hbs.edu/blog/post/diagnostic-analytics)
+[Análise Diagnostica - o que é, técnicas e desafios](https://www.thoughtspot.com/data-trends/analytics/diagnostic-analytics?utm_source=chatgpt.com)
 
-Num geral, a análise descritiva retorna os dados tratados, esses dados apresentam valores muito discrepantes ou incomuns, e a analise diagnostica busca entender porque estes valores apareceram.
+O objetivo dela é entender porque as coisas aconteceram, isso é feito analisando anomalias, tendencias, e padrões nos seus dados, ou seja, discrepâncias, valores muito baixos, valores muito altos, correlações, causas prováveis, entre outros. neste ponto o analista busca fontes adjacentes de dados que podem ajudar a explicar essas anomalias, como a demora em um processo bancário, uma taxa de juros muito alta ou muito baixa ou mesmo a opinião publica sobre o produto ou empresa. Em outras palavras, como o nome sugere isso é um diagnóstico, ou seja, você vai entender a causa de um problema pelos seus efeitos, como se estivesse andando do final para o começo, e este começo é a causa raiz.
+
+Num geral, a análise descritiva retorna os dados tratados, esses dados apresentam valores muito discrepantes ou incomuns, e a analise diagnostica busca entender porque estes valores apareceram, buscando a causa raiz deles.
+
+#### Aprofundamento:
+
+
+Existem três técnicas principais na análise diagnostica dos dados, sendo elas:
+
+* **Teste de hipóteses:**
+	 O teste de hipótese é uma técnica onde se supõe algo sobre os dados e tentamos provar se essa suposição esta certa ou errada utilizando testes estatísticos. Geralmente esta suposição é feita com algo no passado ao invés do futuro, pois no ultimo caso estamos tratando da analise preditiva(P.ex. As vendas caíram por uma aumento dos preços, ao invés de, as vendas vão cair se os preços subirem mais). Com o teste de hipóteses podemos averiguar se algo ocorreu ao acaso ou se há uma causa mais especifica.
+
+* **Analise de correlação e causa:**
+	A analise de correlação busca verificar se uma variável esta relacionada a a outra, se uma influencia diretamente a outra, e se essa é a cauda daquela. As variáveis relacionadas podem mudar de maneira proporcional ou inversamente proporcional a outra, mas não significa que uma é necessariamente a causa da outra. 
+	Um exemplo mais visual seria, duas variáveis são como duas varetas ligadas por uma corda, o movimento de uma vareta influencia a outra, porem o movimento da primeira pode não ser a causa principal do movimento da segunda, na verdade, ambas as varetas podem estar ligadas a uma terceira, e este é a causa raiz da movimentação das outras duas.
+
+* **Análise de regressão:**
+	Em resumo, a análise de regressão verifica a interação de duas ou mais variáveis ao longo do tempo, averiguando como uma influencia a outra para determinar de maneira mais precisa as causas de algum acontecimento. Essa analise pode ser feita manualmente ou podemos usar *machine learning* para treinar um modelo que realize esta análise(com Scikit learn, por exemplo).
 
 ### Análise preditiva:
 
@@ -52,6 +89,9 @@ Em suma a relação entre os tipos de análise de dados é feito no seguinte flu
 **Analise descritiva**(verifica o que aconteceu,) -> **Analise diagnostica**(busca o porque dos acontecimentos terem ocorrido desse jeito, quais os padrões e quais as tendencias) -> **Analise preditiva**(Busca responder se um certo padrão vai se repetir ou não se baseando no que ocorreu)-> **Analise prescritiva**(busca os melhores cursos de ação baseado no contexto geral adquirido com as outras analises).
 
 Um ponto importante é que nem todas elas são utilizadas a depender do projeto, e elas não precisam necessariamente seguir o fluxo apresentado. Além disso, o grau de dificuldade da análise sobe em cada tipo, com a analise descritiva sendo a mais simples e a análise prescritiva a mais complexa.
+
+
+
 ## Quais os conceitos chave da analise de dados:
 
 Os principais conceitos em análise de dados são: Coleta, Limpeza, Extração e visualização de dados. Cada um terá suas técnicas próprias e ramificações, mas tratemos por partes.
@@ -60,6 +100,7 @@ Os principais conceitos em análise de dados são: Coleta, Limpeza, Extração e
 
 [Coleta de dados](https://www.simplilearn.com/what-is-data-collection-article#what_is_data_collection)
 [Métodos de coleta de dados](https://www.questionpro.com/blog/data-collection-methods/#What_are_Data_Collection_Methods)
+[[Webscrapping]]
 
 Essa é a parte mais importante, pois daqui virão os dados brutos que serão tratados e analisados. A coleta de dados pode ser feita a partir de arquivos no sistema(como uma planilha de Excel ou arquivo JSON), Bancos de dados, API's, Webscrapping entre outros. 
 
@@ -119,22 +160,23 @@ Pandas - Para leituras de arquivos diversos
 
 ### Limpeza:
 [O que é e como fazer Limpeza de dados](https://www.tableau.com/learn/articles/what-is-data-cleaning#:~:text=tools%20and%20software-,What%20is%20data%20cleaning%3F,to%20be%20duplicated%20or%20mislabeled.)
+[[Pratica baseada em python]]
 
 A limpeza de dados consiste principalmente no tratamento de quatro coisas: Dados faltantes, dados duplicados, Dados atípicos(muito fora da média), e dados no formato incorreto. Ou seja, é corrigir ou remover dados incompletos, faltantes, mal formatados, corrompidos, duplicados ou muito extremos. O processo varia entre as bases de dados, e a aplicação prática da limpeza muda dependendo da ferramenta(por exemplo, a limpeza será feita com um conjunto de fórmulas no python, mas será feita de outra forma no Excel), mas há um caminho que pode ser seguido no tratamento deles:
 
-1. **Remover valores duplicados ou irrelevantes**
+1. **[[Pratica baseada em python#valores duplicados|Remover valores duplicados ou irrelevantes]]**
 	Quando os dados vem de diversas fontes ou departamentos eles podem estar duplicados, desta forma é melhor remover estes dados para evitar estatísticas imprecisas. Outro ponto é a remoção de dados irrelevantes, pois, as análises não serão feitas no conjunto todo, geralmente se deseja responder um número limitado de questões com cenários ou agentes específicos, portanto, a remoção de qualquer coisa fora deste escopo tornará a analise mais eficiente. 
 	Por exemplo, se deseja verificar quais clientes compraram um produto X no primeiro trimestre dos últimos três anos, mas sua base contem vendas de diversos meses dos últimos três anos. Desta forma será necessário excluir todos os trimestres com exceção do primeiro para esta análise, e será necessário remover qualquer venda duplicada do produto X, pois se quer somente os clientes que compraram aquele produto, não quantas vezes eles compraram.
 
-2. **Corrigir erros estruturais**
+2. **[[Pratica baseada em python#Formatação dos dados|Corrigir erros estruturais]]**
 	Corrigir erros como nomenclatura, capitalização, classificação, e tipos de dado, para deixa-los todos num padrão.
 
-3. **Remover valores atípicos(Outliers) indesejados**
+3. **[[Pratica baseada em python|Remover valores atípicos(Outliers) indesejados]]**
 	Em primeiro lugar, um valor atípico é aquele muito disperso do resto dos dados ou da média deles. Por exemplo, temos três clientes, cada um tem os valores 1,2 e 3, é colocado na conta um quarto cliente, mas seu valor é 7. Este quarto cliente é um valor atípico.
 	Algumas vezes os dados podem mostrar estes valores muito discrepantes ou que não fazem parte do escopo trabalhado, se esses dados atípicos forem um problema para o que esta sendo analisado eles podem ser removidos, mas isso depende do objetivo do projeto, pois você pode estar procurando esses valores atípicos.
 	Por exemplo, dos clientes que compraram o produto X, a empresa deseja aqueles que mais gastaram dinheiro no produto. Se for calculada uma média ela vai ficar muito alta devido a um alto gasto de algumas pessoas, esses valores mais altos são os valores atípicos(Outliers) desejados pela empresa.
 
-4. **Lidar com dados faltantes**
+4. **[[Pratica baseada em python#Valores faltantes|Lidar com dados faltantes]]**
 	Há varias formas de lidar com dados faltantes, visto que vários algoritmos não aceitam dados faltantes, mas nenhuma é perfeita, pois isso prejudicaria a integridade dos dados, as duas principais opções são: Remover os dados ou substitui-los por outras observações(como uma média de dados vizinhos)
 
 5. **Validação**
@@ -155,130 +197,9 @@ Uma forma de verificar se um conjunto de dados é bom é a partir de uma anális
 
 Resumindo de maneira bruta, é possível verificar se um dado é bom se ele: Vier de fontes confiáveis, estiver atualizado, manter a consistência e unicidade, for preciso com as entidades reais e estiver alinhado com o modelo de negócios.
 
-#### Pratica baseada em python:
-
-[Python para analise de dados - Limpeza](https://wesmckinney.com/book/data-cleaning)
-
-A biblioteca Pandas do python proporciona vários meios de fazer a limpeza dos dados, as principais funções, parâmetros e utilidades de cada uma serão descritos nesta secção.
-
-##### Valores faltantes:
-Em python, a identificação de valores faltantes pode ser feita com a função *isna* (Ou *Isnull*, elas são iguais). Esta função retorna uma série booleana onde os valores ausentes(NAN || NA || NONE) são verdadeiros, fazendo assim o mapeamento dos valores. Após identificar os valores ausentes, eles podem ser deletados ou preenchidos utilizando as funções *Dropna* e *Fillna*.
-Duas observações: 
-*isna* pode ser usado com formulas estatísticas para calcular quantos valores nulos possuímos no DF por coluna(P.Ex. DF.isna().sum() -> Soma os valores faltantes no DF).
-Como *isna* trata apenas valores *NAN ou NONE* como ausentes, outros valores como '-' ou 'missing' devem ser tratados de antemão e substituídos com a função *Replace* 
-
-A função *Dropna* remove as linhas ou colunas que contenham valores nulos, criando uma cópia do DF original e alterando apenas a cópia. Por padrão, caso haja ao menos um valor nulo na linha ou coluna ela será deletada, mas há parâmetros específicos que podem modificar o funcionamento da função.
-	**How** -> Contem os valores *any* e *all*. O primeiro exclui a linha/coluna caso haja ao menos um valor NA nela, o segundo faz a exclusão somente se todos os valores forem NA. 
-	**Axis** -> 0 faz a exclusão de linhas; 1 faz a exclusão de colunas
-	**Thresh** -> Define um limite mínimo de valores Não nulos que uma linha/coluna precisa ter para não ser excluída. ou seja: Thresh=3 -> a linha/coluna precisa de pelo menos três valores preenchidos para não ser excluída.
-
-A função Fillna preenchera os dados vazios de diversas formas, as principais são:
-	**Valor constante(Escala**r) -> Se for passado um único valor, então todos os valores ausentes serão substituídos por ele
-	**Series/dict/Dataframe** -> Permite especificar um valor para cada linha/coluna do DF. Os valores não podem ser listas.
-	**Method** -> possui os valores 'bfill' e 'ffill'. A principal diferença entre eles é que: dado um valor não nulo próximo de um NA. Com 'ffill' todos os valores NA a frente deste não nulo serão preenchidos com o valor dele, e com o 'bfill' o preenchimento será feito nos NA atrás dele. Em termos mais simples e grossos, ffill preenche todos os NA a frente de um numero com o valor daquele numero, e bfill faz o mesmo porem para os números que estão atrás.
-	**Limit** -> Este parâmetro pode acompanhar o *method*, indicando quantas linhas/colunas de valores vazios devem ser preenchidos pelo parâmetro.
-	**Estatísticas** -> Por fim, é possível utilizar estatísticas como média, mediana, desvio padrão, máximo, mínimo, etc. para preencher os valores vazios, bastando utilizar a formula correspondente dentro da função, por exemplo: *df[coluna].fillna(df['coluna'].mean/max/mín...)*
-	Obs: Futuramente os métodos ffill e bfill serão substituídos por funções que  terão o mesmo nome
-
-##### valores duplicados
-[Python para analise de dados - Limpeza](https://wesmckinney.com/book/data-cleaning)
-[Python para analise de dados - Limpeza(Documentação Pandas)](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.duplicated.html)
-
-
-A verificação de valores duplicados em python é feita com a função *Duplicated*, ela verifica se em um DF há um valor repetido, e retorna uma serie booleana indicando *true* onde há estes valores. 
-Além dela temos a função *Drop_duplicates*, que retorna um novo DF sem os valores duplicados.
-Ambas as funções possuem os parâmetros *subset* e *keep*:
-*  O primeiro pode ser usado para definir a coluna a ser tratada/analisada no DF. 
-* O segundo parâmetro marca quais valores não serão considerados duplicadas, ele tem as Keywords 'first', 'last', 'False; 
-	* 'first' -> Trata as primeiras ocorrências como os valores únicos, e todas as repetições são consideradas duplicadas
-	* 'last' -> trata as ultimas ocorrências como os valores únicos, e todas repetições são consideradas duplicadas
-	*  False marca todos os valores como duplicados, com exceção das ocorrências que são totalmente únicas, sem nenhuma duplicidade no DF, geralmente linhas que aparecem somente uma vez.
-
-Temos por exemplo: 
-* DF.duplicated(subset=['Coluna1']) -> para verificar os valores duplicados da coluna 1
-* DF.drop_duplicates(subset=['Coluna1']) -> para retirar os valores duplicados se baseando da coluna 1
-
-Outros parâmetros da função Drop_duplicates são: Inplace(Que sobrescreve o DF original ao invés de criar uma cópia) e o Ignore_index(Que cria um novo índice para a cópia sem as duplicadas)
-
-##### Formatação dos dados
-[Numpy DataTypes](https://www.w3schools.com/python/numpy/numpy_data_types.asp)
-[Python para analise de dados - Conversão por mapeamento](https://wesmckinney.com/book/data-cleaning#prep_mapping_values)
-[Python para analise de dados - Substituição de valores](https://wesmckinney.com/book/data-cleaning#prep_replace)
-[Pandas Documentation - replace](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html)
-[Pandas Documentation - rename](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rename.html)
-
-
-Uma das partes mais importantes em análise de dados é a normalização deles, ou seja, a padronização ou correção dos tipos de dados. Isso pode ser feito de varias formas diferentes.
-
-* método *astype*:
-	Este método do pandas permite modificar o tipo de dados de uma coluna, eles podem ser alterados para tipos padrão do python ou para outros tipos adicionados pelas bibliotecas numpy e pandas. por exemplo:  i/int(integer), f/float(float), b/bool(boolean), S/string(string), O(object), category(dados categóricos), datetime64(datas), etc.
-	
-	Outros pontos são:
-	* A função pode receber um dicionário para mudar colunas especificas para tipos específicos.
-	* Tipos de dados que não puderem ser convertidos(P.Ex letras-> int) retornarão erros
-
-* Mapeamento
-	Os dados podem ser modificados ou organizados utilizando, principalmente, a função *map*, esta recebe uma outra função ou dicionário e modifica uma *series* baseado nisso. P.ex. dado o seguinte código:
-	
-	data = pd.DataFrame({"food": [
-				"bacon", "pulled pork", "bacon", 
-				"pastrami", "corned beef", "bacon", 
-				"pastrami", "honey ham", "nova lox"],
-    "ounces": [4, 3, 12, 6, 7.5, 8, 3, 5, 6]})
-    
-	animal = {
-    'bacon': 'pig',
-    "pulled pork": "pig",
-    "pastrami": "cow",
-    "corned beef": "cow",
-    "honey ham": "pig",
-    "nova lox": "salmon"
-	}
-	data['animalCorresp'] = data['food'].map(animal)
-	
-	O DF retorna uma serie de alimentos, mas não possui o animal correspondente a ele. O dicionário 'animal', contém os alimentos com os animais relacionados. A função map atribuirá para cada comida em *data['food']* o animal correspondente indicado no dicionário 'animal', criando uma nova coluna chamada *animalCorresp*.
-	
-	Além disso, no código acima todos os alimentos não estão capitalizados, poderíamos adicionar a seguinte função ao código para resolver isso:
-	
-	def maiuscula(str):
-	    return str.capitalize()
-	
-	A aplicação dessa função no DF também pode ser feita com *map*:
-	
-	data['food'] = data['food'].map(maiuscula)
-	
-	Assim capitalizando todas as iterações na coluna *food*.
-	Por fim, Map pode receber Funções Lambda.
-
-* Substituição de valores com *replace*
-	A função replace substitui valores de maneira mais direta dentro de um DF. É possível substituir os valores um a um, substituir uma lista de valores por um valor, substituir uma lista de valores por outra lista, ou passar um dicionário que indica qual valor deve ser substituído pelo que:
-	
-	df.replace(987, np.nan) -> substitui o valor 987 por NAN
-	df.replace([987; 1000], np.nan) -> substitui o valor 987 e 1000 por NAN
-	df.replace([-999, -1000], [np.nan, 0]
-	df.replace({-999: np.nan, -1000: 500})
-	
-	Além disso a função possui os parâmetros:
-	Inplace -> Modifica o DF original ao invés de criar uma cópia
-	regex -> permite substituir caracteres de expressões regulares
-
-* Modificação de títulos de índices e colunas com *rename*
-	Índices e colunas podem ser modificados com Map(*df.index/columns.map()*), mas outra opção é utilizar a função *rename*. Ela é utilizada principalmente com dicionários, mas também pode ser utilizada com alguns parâmetros e retorna uma cópia do DF original.:
-		**Modificação por dicionários:** É passado um dicionário com os valores antigos e os novos, por padrão o dicionário vai modificar primeiro as linhas, então caso queira mudar as colunas é preciso utilizar junto o parâmetro *axis=1*. 
-		P.EX.: df.rename({'nomeColuna1': 'NovoNomeColuna1'}, axis=1)
-		**modificação por indicação direta:** Ao invés de utilizar somente dicionários, é possível aplicar as modificações para as linhas ou colunas diretamente utilizando os parâmetros *index* e *columns*. Eles são o equivalente á *axis=0 e axis=1*. um exemplo de modificação é: 
-		df.rename(index={'NomeLinha1': 'novo_nome_linha1'}, columns={'NomeColuna1':*novo_nome_Coluna1*}).
-	
-	Além disso, a função *rename* tem os parâmetros *Inplace*(Para modificar o DF original), *level*(Em caso de multindexação, modifica somente os rótulos de níveis específicos), *erros*(define se os erros na renomeação serão mostrados(*raise*) ou não(*ignore*))
-
-* Uso das fórmulas *to_datetime*, *to_timedelta*, *to_numeric*
-
-## Quais as ferramentas de analise dados
-
-
-
 ## Metodologia da analise de dados
 
+### Ciclo de vida dos dados
 Como a analise muda de negócio para negócio, a forma como uma empresa ou setor trata os dados será a base do método pelo qual eu vou trata-los também, mas existem alguns padrões que podem ser seguidos e adaptados. O principal é o *Ciclo de análise de dados*(Que é algo como o CRISP-DM), esse ciclo visa o entendimento do negocio, modelamento e transformação dos dados. 
 
 O ciclo de análise de dados tem 6 pontos principais:
@@ -295,3 +216,6 @@ O ciclo de análise de dados tem 6 pontos principais:
 	Aqui é feita a visualização dos dados em gráficos e dashboards, organizando eles de forma intuitiva
 * 6 - A comunicação e tomada de decisões
 	Aqui é feita a apresentação dos resultados da análise para a empresa, e com isso, auxiliando nas tomadas de decisões. Nesta parte considero importante o storytelling, ele será montado na interpretação e visualização, mas aqui é que ele será passado e tratado por gestores ou outros lideres.
+
+### CRISP-DM
+

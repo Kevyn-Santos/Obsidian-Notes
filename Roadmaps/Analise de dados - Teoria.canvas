@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"f92212658e31c0e8","type":"text","text":"#AnaliseDados","x":-380,"y":-460,"width":180,"height":50},
+		{"id":"0a96ee935e7b7756","type":"file","file":"Backup/LinguagensDeProgramação/AnaliseDados/Documentação Principal - Analise de dados.md","x":-429,"y":-340,"width":329,"height":120}
+	],
+	"edges":[
+		{"id":"0152a26f309f5457","fromNode":"f92212658e31c0e8","fromSide":"bottom","toNode":"0a96ee935e7b7756","toSide":"top"}
+	]
+}

@@ -1,7 +1,7 @@
 
 # Verbos e pronomes em Francês
 
-## Verbo être
+## ***Verbo être***
 
 O verbo être é o ser/estar do francês, sendo um dos mais importantes, Ele denota qualidades, estados fisicos/emocionais, e localização de seres. ele sempre vem após um substantivo comum, ou um substantivo próprio, ou um pronome.
 
@@ -11,7 +11,7 @@ singular:
 
 1ª pessoa do singular - *Je* **Suis** (Eu sou)
 2ª pessoa do singular - *Tu* **Es** (Você é (informal))
-3ª pessoa do singular - *Il, elle, on* **Est** (Ele é, Ela é, Nós/Eles/nós Somos (indefinido))
+3ª pessoa do singular - *Il, elle, on* **Est** (Ele é, Ela é, A gente é (indefinido))
 
 Plural:
 1ª pessoa do plural - *nous* **Sommes** (Nós Somos) 
@@ -46,12 +46,14 @@ Obs: As conjugações verbais na terceira pessoa do singular, especialmente com 
 
 * Se houver um adjetivo que modifique o substantivo, são utilizados os pronomes indefinidos *C'est ou ce Sont*, além disso serão usados os artigos ou adjetivos possesivos nos casos de profissão, religião ou nacionalidade. (C'est un diligent protestant / É um protestante Diligente; Ce sont mes amies Françaises / Vocês são minhas amigas francesas)
 
-	C'est -> Verbo e artigo indefinido *Ce*(O verbo esta na terceira pessoa do singular)
+ #### Pronomes demonstrativos(Ce, Cet, Cette, Ces):
+ 
+	C'est -> Verbo e pronome demonstrativo neutro *Ce*(O verbo esta na terceira pessoa do singular)
 	un -> Artigo indefinido 'um'
 	Diligent -> Adjetivo descritivo
 	protestant -> Substantivo(Esta sendo modificado pelo adjetivo Diligent)
 
-	Ce Sont -> Verbo junto do artigo indefinido *Ce*(O verbo esta na terceira pessoa do plural)
+	Ce Sont -> Verbo junto do pronome demonstrativo neutro *Ce*(O verbo esta na terceira pessoa do plural)
 	mes -> adjetivo possesivo(minhas)
 	amie -> Substantivo(Esta sendo modificado pelo adjetivo Françaises)
 	Françaises -> Adjetivo descritivo
@@ -63,7 +65,7 @@ Obs: As conjugações verbais na terceira pessoa do singular, especialmente com 
 	
 		Cette -> Pronome demonstrativo que significa 'esta'. É usado quando o substantivo a que se refere é feminino, singular, **e independe se é iniciado com consoante ou vogal**. (Cette Fênetre - Esta janela / Cette Avenue - Esta avenida)
 	
-		Ces -> Pronome demonstrativo que significa 'Estes/Estas'. É usado tanto com substantivos masculinos quanto femininos, independente se iniciados com vogal ou consoante, mas é utilizado apenas no plural. (Ces Homme - Estes Homens / Ces Fênetre - Estas janelas)
+		Ces -> Pronome demonstrativo que significa 'Estes/Estas'. É usado tanto com substantivos masculinos quanto femininos, independente se iniciados com vogal ou consoante, mas é utilizado apenas no plural. (Ces Hommes - Estes Homens / Ces Fenêtres - Estas janelas)
 	
 		-Ci, -Là -> São 'sufixos' que denotam a distancia relativa de algo, *-Ci* denota que algo esta próximo e *-là* denota que algo esta mais longe. São as vezes utilizados após os substantivos que são precedidos por algum dos pronomes demonstrativos, e eles são utilizados com o hífen. (Cette Maison-Ci - Esta casa / Cette maison-là - Aquela casa)
 
@@ -75,7 +77,8 @@ Obs: As conjugações verbais na terceira pessoa do singular, especialmente com 
 	Américain -> Adjetivo de nacionalidade(Possui o adjetivo 'un' por estar descrevendo alguém)
 
 
-* Em um geral, e se não se enquadrar nas regras acima, substantivos que denotam profissão, religião ou nacionalidade, não possuirão artigos e não serão capitalizados. 
+* Em um geral, e se não se enquadrar nas regras acima, substantivos que denotam profissão, religião ou nacionalidade, não possuirão artigos e não serão capitalizados.
+
 ## Pronomes pessoais:
 
 Seguem abaixo os principais pronomes em Francês de cada conjugação do verbo être. Eles são usados para se referir a um sujeito ou substantivo ja mencionado e por isso seguem este sujeito em gênero e número
@@ -90,7 +93,7 @@ On - nós(Informal) (Terceira pessoa do singular, Indefinido)
 Nous - Nós(Formal) (Primeira pessoa do plural)
 Vous - vós (Formal) (Segunda pessoa do plural)
 Ils - Eles (Terceira pessoa do plural, masculino)
-Elles - Elas (Terceira pessoa do plural, masculino)
+Elles - Elas (Terceira pessoa do plural, feminino)
 
 Algumas observações sobre os pronomes são:
 
@@ -104,13 +107,14 @@ Algumas observações sobre os pronomes são:
 Je suis Kevyn - Eu sou Kevyn
 Tu Es Marcus - Você é Marcus
 il Est John - Ele é João
-ile Est Marie - Ela é Maria
-On Est un Livre - Isto é um livro
+Elle Est Marie - Ela é Maria
+C'Est un Livre - Isto é um livro
 Nous Sommes étudiants - Nós somos Estudantes
 Vous êtes étudiants - Vocês são Estudantes
 Ils Sont amis - Eles são Amigos
 Elles Sont Amies - Elas são amigas
-## Verbo Avoir:
+
+## ***Verbo Avoir***
 
 O verbo Avoir indica a posse de algo, sendo o segundo verbo mais importante do francês.
 
@@ -128,24 +132,25 @@ ils / elles ont (Eles/Elas tem)
 ### Exemplos de uso do Avoir:
 
 J'ai un livre - Eu tenho um livro
-Tu as un Chaussures noir - Você tem um sapato preto
-Il a une mal à la tête - Ele tem uma dor de cabeça
-Nous avons belles voitures - Nós temos belos carros
-Vous avez petit enfant - Vocês tem pequenas crianças
-Elles ont de bons l'ordineurs portables - Eles tem bons laptops
+Tu as des Chaussures noires - Você tem um sapato preto
+Il a mal à la tête - Ele tem uma dor de cabeça
+Nous avons de belles voitures - Nós temos belos carros
+Vous avez un petit enfant - Vocês tem pequenas crianças
+Elles ont de bons ordineurs portables - Elas tem bons laptops
 
-## Negações e expressões de indicação:
+
+## Negações e expressões de indicação
 
 As Negações em francês são feitas com o bloco *Ne.. Pas*, onde o *Ne* vem antes do verbo conjugado e o *pas* vem após o verbo conjugado. Caso o verbo se inicie com vogal, o *Ne* é aglutinado para *N'*.
 
 ### Negação com o Verbo Être:
 
-Je Ne suis Pas - Eu não sou (Je ne suis pas a bon homme)
-Tu n'es pas - Você não é (Tu n'es pas a belle femme)
+Je Ne suis Pas - Eu não sou (Je ne suis pas un bon homme)
+Tu n'es pas - Você não é (Tu n'es pas une belle femme)
 Il/Elle/On n'est pas - Ele/Ela/Nós não é (On n'est pas agréable)
 Nous Ne Sommes Pas - Nós não somos (Nous Ne sommes Pas rapides)
 Vous N'Êtes Pas - Vocês não são (Vous N'êtes Pas Sincères)
-Ils/Elles Ne sont Pas - Eles/Elas não são (Elles Ne Sont Pas belles femmes)
+Ils/Elles Ne sont Pas - Eles/Elas não são (Elles Ne Sont Pas de belles femmes)
 
 ### Negação com o Verbo Avoir:
 
@@ -162,13 +167,23 @@ Ils/Elles n'ont pas - Eles não tem (Ils N'ont pas D'argent(Eles não tem dinhei
 
 A expressão "Il y a" refere-se a pessoas, objetos ou ideias, e é uma expressão que denota que **há uma coisa** sendo apontada, é o equivalente ao "Há um problema", "Há alguém", "Há algo", etc.
 
-A expressão "Il y en a" refere-se também sobre pessoas, objetos e ideias, mas da a entender que há mais de uma coisa sendo apontada, é como um "Há muitos"
+A expressão "Il y en a" refere-se também sobre pessoas, objetos e ideias, mas da a entender que há mais de uma coisa sendo apontada, é como um "Há muitos", alem disso, é usada para substituir um substantivo que ja foi mencionado
 
 Il y a des problèmes dans ce document - Há um problema com este documento
-Il y en a des Problèmes dans ces documents - Há problemas nestes documentos
+Il y en a dans ces documents - Há problemas nestes documentos.(Omite-se des problèmes pois ja foi mencionado)
 
-Il y a de Soir - Há noite
-Il y en a des soir - Há algumas noites
+Il y a une Soirée - Há noite
+Il y en a plusieurs - Há algumas noites(Omite-se une soirée pois ja foi mencionado)
+
+
+## ***Verbo Aller***
+
+
+O verbo Aller(ir para) é usado para dar direções e indicar a ida em algum lugar, alem disso é utilizado na construção do futur proche
+
+
+## *Formação de perguntas*
+
 ## Os três grupos verbais e suas conjugações
 
 No Francês os verbos são divididos em três grupos, cada qual com sua conjugação regular própria, são eles: verbos terminados em *-er*, verbos terminados em *-ir*, verbos terminados em *-re*. Seguem as conjugações regulares para cada verbo e uma pequena lista de outros verbos do mesmo grupo:
@@ -242,17 +257,17 @@ No Francês os verbos são divididos em três grupos, cada qual com sua conjuga�
 		je mange
 		tu manges
 		il/elle/on mange
-		nous mangons
+		nous mangeons
 		vous mangez
 		ils/elles mangent
 	
-	Travailler(travbalhar):
-		je Travellie
-		tu travellies
-		il/elle/on travellie
-		nous travellions
-		vous travelliez
-		ils/elles travelient
+	Travailler(trabalhar):
+		je Traveille
+		tu traveilles
+		il/elle/on traveille
+		nous traveillons
+		vous traveillez
+		ils/elles traveillent
 	
 	regarder(olhar/observar):
 		je regarde
@@ -278,7 +293,7 @@ No Francês os verbos são divididos em três grupos, cada qual com sua conjuga�
 		tu choisis
 		il/elle/on choisit
 		nous choisissons
-		vous coisissez
+		vous choisissez
 		ils/elles choisissent
 	
 	agir(agir):
@@ -386,7 +401,11 @@ No Francês os verbos são divididos em três grupos, cada qual com sua conjuga�
 		nous répondons
 		vous repondez
 		ils/elles repondent
-## Tempos verbais:
+
+
+## ***Verbo faire***
+
+## Tempos verbais
 
 No francês temos o passado, presente e futuro, cada qual tem suas ramificações para indicar melhor o tempo.
 
@@ -430,6 +449,10 @@ Vendre:
 	vends! -> Venda
 	Vendons! -> Vendemos!
 	Vendez! -> Vendam
+
+
+
+
 # Substantivos
 
 ## Artigos masculinos e femininos
@@ -601,6 +624,8 @@ une bibliothèque(une - bi-blío-thé-kha) -> des bibliothèques (de-bi-blío-th
 un choix-> des choix - uma escolha / algumas escolhas
 le cour -> les cours - o curso / os cursos
 le travail -> les travaux - o trabalho / os trabalhos 
+
+
 # Adjetivos:
 
 ## Adjetivos descritivos:
@@ -793,3 +818,8 @@ Pauvre - Pobre
 cher - Caro
 	Se vier antes -> Querido (Un cher ami / Um querido amigo)
 	Se vier depois -> caro(Un chaussettes cher / Um sapato caro)
+
+
+
+
+# Preposições:
