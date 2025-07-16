@@ -176,6 +176,21 @@ Il y a une Soirée - Há noite
 Il y en a plusieurs - Há algumas noites(Omite-se une soirée pois ja foi mencionado)
 
 
+
+## Tempo e numeração:
+
+### Dias e meses
+
+### Partes do dia e estações
+
+### Números cardinais
+
+### Números Ordinarios
+
+### Data e ano
+
+### Tempo
+
 ## ***Verbo Aller***
 
 
@@ -183,6 +198,43 @@ O verbo Aller(ir para) é usado para dar direções e indicar a ida em algum lug
 
 
 ## *Formação de perguntas*
+
+Em Frances temos dois tipos de perguntas: **As fechadas**(Aquelas que esperam um sim/não como resposta), e **as abertas**(Aquelas que esperam um fato ou informação como resposta).
+Para o primeiro grupo temos quatro variações, sendo que três são mais quotidianas e a quarta é mais formal e literária.
+Para o segundo grupo temos o uso de palavras de questionamento, p.ex, o que, como, onde, quando, porque, quem, etc.
+
+### Frases sim/não
+
+Aqui temos quatro estruturas principais:
+
+* Frase com mudança de tom - O tom no final da frase é alterado para parecer uma pergunta, nenhuma palavra interrogativa ou inversão verbal é usada
+	 p.ex: Il est étudiant?  - Oui, il est / non, n'est pas
+
+* Frase com **n'est-ce pas?** - Esta estrutura é adicionada no final das frases e funciona como um, 'não é?' do português, geralmente quando é usada o locutor espera uma resposta positiva
+	P.ex: Tu es étudiant, n'est-ce pas? - Oui, je suis  / Non, je ne suis pas
+
+* Frase com est-ce que - Essa estrutura é alocada no inicio de uma frase e tem um som dissílabo(ehs - kuh). Aqui a ordem das palavras não muda, e o verbo conjugado é usado depois da estrutura. Alem disso, ela tem algumas declinações a depender da vogal seguinte, sendo elas est-ce qu'il(ehs-keel) e est-ce qu'elle(ehs-Kehl). O objetivo dessa estrutura é facilitar a construção de perguntas, para evitar as inversões verbais.
+	P.ex: Est-ce que nous sommes déjà à l’école ?
+
+* Frase com inversão verbal  -  Nesta estrutura, verbo e sujeito são invertidos, sendo mais utilizada em contextos formais ou na literatura. 
+	* Um hífen é colocado na inversão para unir pronome do sujeito e o verbo.	 
+		P.ex. Suis-je en retard?
+	
+	* Na negação, ne..pas vem ao redor da inversão
+		P.ex: n'es-tu pas en retard? (Você não esta atrasado?), n'avons-nous pas faim?(não estamos com fome?)
+	
+	* O pronome 'Je' quase nunca é invertido, a não ser em alguns casos formais com os verbos irregulares être(suis-je), devoir(Dois-je) e pouvoir(puis-je).
+	
+	* Caso um verbo na terceira pessoa do singular termine em vogal, um t com hiféns(-t-) é colocado entre o verbo e os pronomes para evitar hiato
+		P.ex: A-t-on la viande aujourd'hui? (Nós temos carne hoje?), parle-t-il au l'école?(Ele fala na escola?), mange-t-elle la viande le soir?(Ela come carne a noite?)
+		
+		* Formalmente, a estrutura ***Il y a*** vira ***Y a-t-il***, e na forma negativa, Ne..pas vem ao redor da estrutura, com o artigo indefinido 'Des' virando De/d'. Mas no quotidiano, a inversão não é usada e ne..pas vai ao redor de 'y a'.
+			P.ex: 
+			Y a-t-il des viande? / N'y a-t-il pas des viande? / Il y a des viande? / il n'y a pas des viande? (Ha carne? / Não ha carne?), 
+			Y a-t-il d'eau? / N'y a-t-il pas d'eau? / Il y a d'eau? / il n'y a pas d'eau? (Há água? / Não há água?)
+	
+	* Caso a frase invertida contenha um sujeito como substantivo, então tanto o sujeito quanto o pronome serão usados na frase, sendo que o pronome será invertido.
+		P.ex: Ce monsieur est-il français? / Ce monsieur n'est-il pas français? (Este senhor é Francês? / Este senhor não é francês?)
 
 ## Os três grupos verbais e suas conjugações
 
@@ -253,7 +305,7 @@ No Francês os verbos são divididos em três grupos, cada qual com sua conjuga�
 		vous habitez
 		ils/elles habitent
 	
-	menger(comer)
+	manger(comer)
 		je mange
 		tu manges
 		il/elle/on mange
