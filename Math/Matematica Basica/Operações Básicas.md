@@ -1,3 +1,4 @@
+#Matematica
 # Calculo mental:
 
 Complementariedade de números -> uma forma de fazer cálculos mentais mais rapidamente, é algo como, dada uma operação de dois ou mais números, é necessário fechar as ordens possíveis e depois adicionar o excedente.

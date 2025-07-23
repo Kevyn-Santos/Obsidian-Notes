@@ -132,13 +132,12 @@ Uma das partes mais importantes em análise de dados é a normalização deles, 
 [Seaborn Tutorial](https://www.youtube.com/watch?v=6GUZXDef2U0)
 [matplotlib Tutorial](https://www.youtube.com/watch?v=wB9C0Mz9gSo)
 
-
 ## Matplotlib
 
-### Importação:
+#### Importação:
 utilizamos na construção dos gráficos o módulo pyplot do matplotlib, portanto a importação da biblioteca é feita da seguinte forma: import matplotlib.pyplot as plt.
 
-### Estrutura dos gráficos:
+##### Estrutura dos gráficos:
 
 Existem diversos gráficos no matplotlib e com vários elementos entre eles, ha na documentação a seguinte imagem mostrando a anatomia dos gráficos
 
@@ -149,7 +148,7 @@ plt.title('') -> coloca um titulo no gráfico
 plt.xlabels() -> coloca um rótulo no eixo X
 plt.ylabels() -> coloca um rótulo no eixo Y
 
-### Tipos de gráficos:
+##### Tipos de gráficos:
 
 * Linha -> cria um gráfico de linha simples a partir de um array de valores
 	* código: Plt.plot(array)
@@ -160,5 +159,5 @@ plt.ylabels() -> coloca um rótulo no eixo Y
 	* ![[GráficoBarra.png]]
 
 * 
-## Seaborn
+### Seaborn
 

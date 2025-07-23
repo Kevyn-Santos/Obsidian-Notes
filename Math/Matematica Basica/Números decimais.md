@@ -1,3 +1,5 @@
+#Matematica 
+
 Os números decimais representam uma fração, uma parte tão pequena de um número que não chega a ser o número completo. Ele também segue o sistema decimal de numeração, mas pode ter infinitas casas numéricas. 
 Por exemplo:
 	1 = 0.5 + 0.5 -> 0.5 é uma parte do número 1, mas é tão pequeno que não forma um numero inteiro.

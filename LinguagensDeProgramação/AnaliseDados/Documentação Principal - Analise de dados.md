@@ -104,9 +104,12 @@ Os principais conceitos em análise de dados são: Coleta, Limpeza, Extração e
 
 Essa é a parte mais importante, pois daqui virão os dados brutos que serão tratados e analisados. A coleta de dados pode ser feita a partir de arquivos no sistema(como uma planilha de Excel ou arquivo JSON), Bancos de dados, API's, Webscrapping entre outros. 
 
-Os dados podem ser divididos em dois tipos: Quantitativos e Qualitativos. Dados Quantitativos são números e estatísticas brutas de algum tipo de dado, enquanto os dados Qualitativos são as características do que esta sendo analisado. 
-Por exemplo, em uma população de pessoas podemos verificar as seguintes características: Tamanho, idade, cor do cabelo, dos olhos e da pele, esses são os dados qualitativos. 
-Dentre esses dados teremos diversos números e estatísticas para cada registro, como a idade e altura de cada pessoa, quantidade de pessoas com certa cor de olhos, pele ou cabelo, esses são os dados quantitativos.
+Os dados podem ser divididos em dois tipos:
+* **Dados Quantitativos:** são números e estatísticas brutas de algum tipo de dado. 
+* **Dados Qualitativos:** são as características do que esta sendo analisado. 
+
+Por exemplo, em uma população de pessoas podemos verificar as seguintes características: Tamanho, idade, cor do cabelo, dos olhos e da pele, esses são os dados Qualitativos. 
+Dentre esses dados teremos diversos números e estatísticas para cada registro, como a idade e altura de cada pessoa, quantidade de pessoas com certa cor de olhos, pele ou cabelo, esses são os dados Quantitativos.
 
 Sendo assim, não é viável pegar todo tipo de dado existente para uma analise, por conta da abrangência e quantidade, então é necessário verificar algumas coisas antes de começar a coleta, são elas: 
 * O propósito e objetivo da coleta dos dados(Que se liga ao objetivo da análise como um todo)
@@ -117,14 +120,14 @@ Sendo assim, não é viável pegar todo tipo de dado existente para uma analise,
 
 Existem dois métodos principais de coleta de dados: A coleta de dados primários(Fontes primarias), e a coleta de dados secundários(Fontes secundarias). 
 
-O primeiro tipo trata da *Coleta de fontes primarias*, diretamente dos respondentes, o que pode ajudar a dar uma resposta mais direta na analise. Este tipo de coleta pode ser feito por meio de:
+O primeiro tipo trata da *Coleta de fontes primarias*, diretamente dos respondentes, o que pode auxiliar em uma resposta mais direta na analise. Este tipo de coleta pode ser feito por meio de:
 * Pesquisas e questionários(Seja presencial ou online)
 * Entrevistas(Que podem ser mais rígidas, com perguntas prontas, ou dinâmicas, como num bate papo)
 * Observação(Observar o comportamento do que será analisado no ambiente natural daquilo)
 * Experimentos(Fazer experimentos controlados para verificar as relações de causa e efeito)
 * Grupos de foco(Incentivar um pequeno grupo a discutir sobre algo e coletar os dados da discussão)
 
-O Segundo tipo de coleta trata da *Coleta de fontes secundarias*, ou seja, a análise é feita sobre uma pesquisa já realizada mas com um intuito diferente. É como se fosse uma pesquisa sobre a pesquisa. Esse tipo de coleta pode ser feito por meio de:
+O Segundo tipo de coleta trata da *Coleta de fontes secundarias*(ou, *análise secundária de dados*), ou seja, a análise é feita sobre uma pesquisa já realizada mas com um intuito diferente. Esse tipo de coleta pode ser feito por meio de:
 * Fontes publicadas(Como livros, artigos, revistas, registros do governo, etc)
 * Bancos de dados online
 * Registros governamentais ou institucionais(Como de sites públicos do governo ou de ONG's)
@@ -133,56 +136,105 @@ O Segundo tipo de coleta trata da *Coleta de fontes secundarias*, ou seja, a an�
 
 Dentre estes métodos, a coleta pode ser feita a partir de analises mais cientificas e behavioristas, como completar frases e palavras e verificar como alguém agiria em uma situação, ou de maneira mais geral, com pesquisas pessoais, online ou por telefone.
 
-Dentro da coleta podemos dizer que os dados qualitativos são adquiridos a partir de Observação, entrevistas, grupos de foco e experimentos, enquanto dados quantitativos são coletados a partir de pesquisas e questionários. Mas isso não é exatamente uma regra, pois o método utilizado depende do objetivo da pesquisa.
+Em geral, técnicas como observação, entrevistas e grupos focais tendem a gerar **dados qualitativos**, enquanto questionários e pesquisas estruturadas costumam gerar **dados quantitativos**. No entanto, muitos métodos podem gerar **dados mistos**, dependendo de como são conduzidos e qual o objetivo da pesquisa.
 
 Por fim, os principais objetivos nesses métodos são:
-Garantir a integridade, validação, reprodução e relevância dos dados
-Alcançar os objetivos originais da pesquisa
-Garantir a validação e confiabilidade da pesquisa
-Auxiliar na tomada de decisão baseada nos dados coletados
+* Garantir a integridade, validação, reprodução e relevância dos dados
+* Alcançar os objetivos originais da pesquisa
+* Garantir a validação e confiabilidade da pesquisa
+* Auxiliar na tomada de decisão baseada nos dados coletados
 
 #### Cuidados na coleta e integridade dos dados:
 
 A coleta dos dados deve ser feita com os métodos certos para se evitar erros, imprecisões e irrelevância dos dados coletados, o que dificultaria ou prejudicaria a análise num geral, levando a conclusões errôneas, danos ao publico(Devido as medidas tomadas pela analise), e a incapacidade do estudo ser replicado e validado. Por isso é necessário utilizar as técnicas certas na coleta dos dados e se preocupar com a integridade deles.
 
-A integridade dos dados pode ser verificada com um controle de qualidade e uma garantia de qualidade bem formada, ou seja, a integridade pode ser mais garantida por meio de uma supervisão, comunicação e verificação constante de quem esta coletando os dados e como esta sendo feita a coleta, e por meio de guias, manuais e procedimentos bem estruturados que discorram com clareza sobre as técnicas que serão utilizadas em quais sujeitos de pesquisa, ou quais fontes de dados serão abordados na coleta(como banco de dados ou webscrapping). 
+A integridade dos dados pode ser verificada com um controle e garantia de qualidade bem formadas, ou seja, ela pode ser melhor atingida por meio de supervisão, comunicação e verificação constante de quem esta coletando os dados e como esta sendo feita a coleta, e por meio de guias, manuais e procedimentos bem estruturados que discorram com clareza sobre as técnicas que serão utilizadas em quais sujeitos de pesquisa, ou quais fontes de dados serão abordados na coleta(como banco de dados ou webscrapping). 
 
 #### Ferramentas para coleta de dados:
 
 Por fim, as ferramentas podem variar de acordo com a coleta que esta sendo feita. Uma abordagem mais clássica é fazer observações e pesquisas de campo, mas em termos mais atuais, utilizam-se ferramentas como:
 
-Google sheets, surveyMonkey- para formulários de pesquisa
-Excel - Para gerenciamento de resultados em planilhas
-teams - para entrevistas
-bibliotecas como Request e beautifulSoup - para webscrapping
-SQL - Para coleta de dados advindos de bancos de dados relacionais
-Pandas - Para leituras de arquivos diversos
+##### 📝 **Ferramentas para coleta ativa (pesquisa/entrevistas):**
+
+- **Google Forms, Microsoft Forms, SurveyMonkey** – criação de formulários online.
+    
+- **Google Meet, Microsoft Teams, Zoom** – realização de entrevistas virtuais (com possibilidade de gravação e transcrição).
+    
+
+##### 📊 **Ferramentas para organização e entrada manual:**
+
+- **Excel, Google Sheets** – planilhas para entrada, limpeza e visualização inicial dos dados.
+    
+
+##### 🌐 **Ferramentas para coleta automatizada (web scraping / APIs):**
+
+- **`requests`** – faz requisições HTTP para obter o HTML das páginas.
+    
+- **`BeautifulSoup`** – biblioteca de parsing de HTML/XML.
+    
+- **`Selenium`** – simula interações em páginas dinâmicas (JavaScript).
+    
+- **`Scrapy`** – framework de scraping mais robusto e performático.
+    
+
+##### 💾 **Coleta em bases de dados estruturadas:**
+
+- **SQL (MySQL, PostgreSQL, SQLite)** – linguagem para consultar e extrair dados de bancos relacionais.
+    
+- **`sqlalchemy`, `sqlite3`** – interfaces Python para lidar com SQL.
+    
+
+##### 🐍 **Leitura e ingestão de arquivos com Python:**
+
+- **`pandas`** – leitura de arquivos CSV, Excel, JSON, SQL, etc.
+    
+- **`polars`** – alternativa ao pandas, mais rápida e eficiente com grandes volumes de dados.
 
 ### Limpeza:
 [O que é e como fazer Limpeza de dados](https://www.tableau.com/learn/articles/what-is-data-cleaning#:~:text=tools%20and%20software-,What%20is%20data%20cleaning%3F,to%20be%20duplicated%20or%20mislabeled.)
 [[Pratica baseada em python]]
 
-A limpeza de dados consiste principalmente no tratamento de quatro coisas: Dados faltantes, dados duplicados, Dados atípicos(muito fora da média), e dados no formato incorreto. Ou seja, é corrigir ou remover dados incompletos, faltantes, mal formatados, corrompidos, duplicados ou muito extremos. O processo varia entre as bases de dados, e a aplicação prática da limpeza muda dependendo da ferramenta(por exemplo, a limpeza será feita com um conjunto de fórmulas no python, mas será feita de outra forma no Excel), mas há um caminho que pode ser seguido no tratamento deles:
+A limpeza de dados consiste principalmente no tratamento de quatro coisas: Dados faltantes, dados duplicados, Dados atípicos(muito fora da média), e dados no formato incorreto. Ou seja, é corrigir ou remover dados incompletos, mal formatados, corrompidos, duplicados ou muito extremos. O processo varia entre as bases de dados, e a aplicação prática da limpeza muda dependendo da ferramenta(por exemplo, a limpeza será feita com um conjunto de fórmulas no python, mas será feita de outra forma no Excel), mas há um caminho que pode ser seguido no tratamento deles:
 
 1. **[[Pratica baseada em python#valores duplicados|Remover valores duplicados ou irrelevantes]]**
-	Quando os dados vem de diversas fontes ou departamentos eles podem estar duplicados, desta forma é melhor remover estes dados para evitar estatísticas imprecisas. Outro ponto é a remoção de dados irrelevantes, pois, as análises não serão feitas no conjunto todo, geralmente se deseja responder um número limitado de questões com cenários ou agentes específicos, portanto, a remoção de qualquer coisa fora deste escopo tornará a analise mais eficiente. 
-	Por exemplo, se deseja verificar quais clientes compraram um produto X no primeiro trimestre dos últimos três anos, mas sua base contem vendas de diversos meses dos últimos três anos. Desta forma será necessário excluir todos os trimestres com exceção do primeiro para esta análise, e será necessário remover qualquer venda duplicada do produto X, pois se quer somente os clientes que compraram aquele produto, não quantas vezes eles compraram.
+	Quando os dados vem de diversas fontes ou departamentos eles podem estar duplicados, desta forma avaliaremos se estes dados serão utilizados ou se devem ser removidos para uma análise mais precisa.
+	
+	Outro ponto é a remoção de dados irrelevantes, pois, as análises não serão feitas no conjunto todo, geralmente se deseja responder um número limitado de questões com cenários ou agentes específicos, portanto, a remoção de qualquer coisa fora deste escopo tornará a analise mais eficiente.
+	
+	Por exemplo, se deseja verificar quais clientes compraram um produto X no primeiro trimestre dos últimos três anos, mas a base contem vendas de todos meses dos últimos três anos. Desta forma será necessário excluir todos os trimestres com exceção do primeiro para esta análise, e será necessário remover qualquer venda duplicada do produto X, pois se quer somente os clientes que compraram aquele produto, não quantas vezes eles compraram.
 
 2. **[[Pratica baseada em python#Formatação dos dados|Corrigir erros estruturais]]**
-	Corrigir erros como nomenclatura, capitalização, classificação, e tipos de dado, para deixa-los todos num padrão.
+	Corrigir erros nos dados para que fiquem consistentes e num padrão, por exemplo: 
+	* Nomenclatura(Nomes duplicados ou fora do escopo do conjunto de dados)
+	* Capitalização e grafia(P.ex. 'Produto' e 'Produto' ou 'VenDa 1', 'VEnda2', etc.)
+	* Classificação()
+	* Tipos de dados inválidos(Numéros ou datas como Strings, Números no formato incorreto, etc.)
 
 3. **[[Pratica baseada em python|Remover valores atípicos(Outliers) indesejados]]**
 	Em primeiro lugar, um valor atípico é aquele muito disperso do resto dos dados ou da média deles. Por exemplo, temos três clientes, cada um tem os valores 1,2 e 3, é colocado na conta um quarto cliente, mas seu valor é 7. Este quarto cliente é um valor atípico.
+	
 	Algumas vezes os dados podem mostrar estes valores muito discrepantes ou que não fazem parte do escopo trabalhado, se esses dados atípicos forem um problema para o que esta sendo analisado eles podem ser removidos, mas isso depende do objetivo do projeto, pois você pode estar procurando esses valores atípicos.
 	Por exemplo, dos clientes que compraram o produto X, a empresa deseja aqueles que mais gastaram dinheiro no produto. Se for calculada uma média ela vai ficar muito alta devido a um alto gasto de algumas pessoas, esses valores mais altos são os valores atípicos(Outliers) desejados pela empresa.
+	
+	Métodos como **boxplot, desvio padrão, z-score** ou **IQR (intervalo interquartil)** são usados para detectar esses valores.
 
 4. **[[Pratica baseada em python#Valores faltantes|Lidar com dados faltantes]]**
-	Há varias formas de lidar com dados faltantes, visto que vários algoritmos não aceitam dados faltantes, mas nenhuma é perfeita, pois isso prejudicaria a integridade dos dados, as duas principais opções são: Remover os dados ou substitui-los por outras observações(como uma média de dados vizinhos)
+	Há varias formas de lidar com dados faltantes, visto que vários algoritmos não aceitam dados faltantes, mas nenhuma é perfeita, pois isso prejudicaria a integridade dos dados. As duas principais opções são: 
+	* Remover os dados - Geralmente quando faltam poucos
+	* Substitui-los por outras observações(P.ex. Média, Mediana, Valores frequentes, Próximos valores ou valores anteriores). - Geralmente quando faltam muitos
 
 5. **Validação**
-	Após a limpeza será possível verificar se: Os dados fazem sentido, se eles estão alinhados com o campo de trabalho, se eles podem trazer ideias e auxilio para o trabalho e se eles podem ajudar no desenvolvimento das próximas teorias. Caso algo falhe, será possível verificar se é por conta de dados ruins ou uma limpeza mal feita.
+	Após a limpeza será possível verificar se: 
+	* Os dados fazem sentido
+	* Se eles estão alinhados com o campo de trabalho
+	* Se eles podem trazer ideias e auxilio para o trabalho
+	* Se eles podem ajudar no desenvolvimento das próximas teorias. 
+	
+	Caso algo falhe, será possível verificar se é por conta de dados ruins ou uma limpeza mal feita.
 
+#### Conclusão
 Uma forma de verificar se um conjunto de dados é bom é a partir de uma análise sobre:
+
 * A validade dos dados - Se eles são alinhados com as regras ou modelo de negócios da empresa
 
 * A precisão dos dados - Se eles representam o mais próximo possível os eventos ou entidades reais analisados
@@ -195,11 +247,19 @@ Uma forma de verificar se um conjunto de dados é bom é a partir de uma anális
 
 * A atualização dos dados - Se os dados estão o mais atualizados quanto possível.
 
-Resumindo de maneira bruta, é possível verificar se um dado é bom se ele: Vier de fontes confiáveis, estiver atualizado, manter a consistência e unicidade, for preciso com as entidades reais e estiver alinhado com o modelo de negócios.
+Em resumo, é possível verificar se um dado é bom se ele: Vir de fontes confiáveis, estar atualizado, manter a consistência e unicidade, for preciso com as entidades reais e estiver alinhado com o modelo de negócios.
+
+
+### Exploração:
+[Exploração de dados](https://www.heavy.ai/learn/data-exploration)
+
+### Visualização:
+[Visualização de dados](https://www.tableau.com/en-gb/learn/articles/data-visualization)
+
 
 ## Metodologia da analise de dados
 
-### Ciclo de vida dos dados
+### Ciclo de análise dos dados
 Como a analise muda de negócio para negócio, a forma como uma empresa ou setor trata os dados será a base do método pelo qual eu vou trata-los também, mas existem alguns padrões que podem ser seguidos e adaptados. O principal é o *Ciclo de análise de dados*(Que é algo como o CRISP-DM), esse ciclo visa o entendimento do negocio, modelamento e transformação dos dados. 
 
 O ciclo de análise de dados tem 6 pontos principais:
@@ -217,5 +277,10 @@ O ciclo de análise de dados tem 6 pontos principais:
 * 6 - A comunicação e tomada de decisões
 	Aqui é feita a apresentação dos resultados da análise para a empresa, e com isso, auxiliando nas tomadas de decisões. Nesta parte considero importante o storytelling, ele será montado na interpretação e visualização, mas aqui é que ele será passado e tratado por gestores ou outros lideres.
 
-### CRISP-DM
+### CRISP-DM(Cross Industry Standard Process for Data Mining)
+[CRISP DM - Original Doc](https://www.kde.cs.uni-kassel.de/wp-content/uploads/lehre/ws2012-13/kdd/files/CRISPWP-0800.pdf)
 
+
+### KDD(Knowledge Discovery in Database)
+
+### OSEMN(Obtain, Scrub, Explore, Model, Interpret)

@@ -50,19 +50,71 @@ Para cada tópico finalizado antes do tempo, focar mais na pratica do que na exp
 	Equações de 1º e 2º grau
 
 * Analise de dados:
-	Verificar os conceitos base de analise de dados(O que é, o que faz, quais os tipos, as ferramentas)
-	Coleta de dados(webscraping, banco de dados, arquivos CSV, XLSX, JSON, XML, PDF)
-	Agrupamento e agregação com pandas
-	Tratamento de tempo com pandas
-	identificação e tratamento de valores nulos, duplicados e dispersos com pandas
-	Estatísticas descritivas com numpy / pandas
-	Estrutura de gráfico com matplotlib
-	montagem de gráficos de barras, linhas, rosca, dispersão e mapas de calor com matplotlib/ seaborn
-	Consultas básicas no SQL
-	Junção de bases de dados no SQL
-	Agregação no SQL
-	Fazer um pequeno projeto por semana usando os datasets do kaggle
+	* Módulo 1 – Fundamentos da Análise de Dados (Semana 1–2)
+		- ~~O que é análise de dados?~~
+		- ~~Quais são os tipos (descritiva, diagnóstica, preditiva, prescritiva)~~
+		- ~~O papel do analista de dados~~
+		- Metodologias de analises de dados (CRISP-DM, OSEMN)
+		- ~~Principais ferramentas (Python, SQL, Excel, Tableau, Power BI)~~
+	
+	* Módulo 2 – Coleta de Dados (Semana 3–4)
+		- Coleta de arquivos:
+		    - CSV, Excel, JSON, XML, PDF (`pandas`)
+		- Web scraping:
+		    - Requests + BeautifulSoup (básico)
+		- Banco de dados:
+		    - Leitura de dados com `sqlite3` e `SQLAlchemy`
+	
+	* Módulo 3 – Limpeza e Preparação de Dados (Semana 5–6)
+		*  Identificação e tratamento de:
+		    - Valores nulos
+		    - Dados duplicados
+		    - Outliers (valores atípicos)
+		
+		- Conversão e formatação de tipos (`dtype`)
+		- Normalização e padronização
+		- Estruturação com `pandas`
+	
+	* Módulo 4 – Análise e Estatística Descritiva (Semana 7)
+		* Média, mediana, moda
+	    - Desvio padrão, variância
+	    - Correlação, covariância
+	    - Agrupamentos e agregações com `groupby` + `agg`
+	    - Tabelas e descrições com `.describe()`, `.value_counts()`
+	
+	* Módulo 5 – Trabalhando com Datas e Séries Temporais (Semana 8)
+		- Conversão para `datetime`
+	    - Filtros por data e extração de partes (mês, ano, dia)
+	    - Reamostragem (`resample`)
+	    - Rolling averages e janelas móveis
+	
+	* Módulo 6 – Visualização de Dados (Semana 9–10)
+		* - Matplotlib:
+		    * Estrutura básica de gráficos
+	        - Gráfico de barras, linhas, pizza, dispersão, histogramas
+        - Seaborn:
+		    - Mapas de calor, gráficos de densidade, pairplot, boxplot
+	
+	* Módulo 7 – SQL para Análise de Dados (Semana 11)
+		* - Consultas básicas (`SELECT`, `WHERE`, `LIMIT`)
+		- Filtros com `LIKE`, `IN`, `BETWEEN`
+		- Junção de tabelas (`JOIN`)
+		- Agrupamento (`GROUP BY`, `HAVING`)
+		- Agregações (`SUM`, `AVG`, `COUNT`)
+	
+	* Módulo 8 – Projetos Práticos e Miniportfólio (Semana 12)
+		* 1 projeto por semana com datasets do Kaggle (ou similares)
+	    - Organização em Markdown no Obsidian ou GitHub
+		- Sugestões de temas:
+		    - Limpeza de dados + análise exploratória
+		    - Dashboard simples (Jupyter + matplotlib/seaborn)
+		    - Análise de vendas, clima, saúde, educação, etc.
 
+
+* Ferramentas:
+	Docker
+	PowerBi
+	Git(Uso com CLI)
 ## Cronograma
 
 Fazer estudos intercalados pela manhã / pela noite. 
