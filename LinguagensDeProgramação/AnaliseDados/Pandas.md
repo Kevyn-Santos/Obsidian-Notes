@@ -1,3 +1,4 @@
+#programação 
 # Introdução
 O Pandas é um framework do python que permite a manipulação de dados de diversas fontes, como arquivos CSV, Excel, Sql, PDF, entre outros. Seu principal uso é tratar os dados para organiza-los e manipula-los, como fazer a criação, exclusão e renomeação de colunas e linhas, fazer a inclusão ou exclusão de informações e principalmente, fazer a leitura dos arquivos para permitir o uso de suas informações em gráficos ou outros meios. Conversa muito bem com bibliotecas como matplotlib, plotly e openpyxl.
 

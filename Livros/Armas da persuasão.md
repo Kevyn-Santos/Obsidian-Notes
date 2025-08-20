@@ -1,4 +1,4 @@
-9#persuasão #frasesLivros
+#persuasão #frasesLivros
 # Reciprocidade:
 
 A regra da reciprocidade se baseia na premissa do "Primeiro se da, depois se recebe", ou seja, somos impelidos a retribuir um favor na medida que algo nos foi feito, por exemplo, você é mais suscetível a compartilhar a internet com alguém que já compartilhou internet com você, pois você deseja retribuir o favor. Pesquisadores acreditam que isso seja verdade pois é algo que veio se desenvolvendo socialmente na historia humana há muito tempo.

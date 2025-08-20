@@ -1,4 +1,4 @@
-
+#frasesLivros 
 # Imortalidade:
 
 A imortalidade é um tempo eterno, se ele é eterno ele sempre existiu, se ele sempre existiu então ele existe agora mesmo e, se assim for, então estamos vivendo um período desta imortalidade, de forma que: o que fazemos neste pedaço de imortalidade continua quando nossa vida mortal acabar. E mais, se nossa alma passa para a imortalidade e esta é uma parte constituinte de nossa pessoa, então como modifica-la e engrandece-la pra o eterno? 

@@ -7,9 +7,8 @@
 
 ## O que é analise de dados
 
-Analise de dados são os processos de transformar dados em informações mais palpáveis(ou seja, transforma-los em gráficos, dashboards, modelos preditivos) que vão auxiliar a empresa na tomada de decisão. 
-
-Isso é feito pelo uso de técnicas de analise como limpeza de dados, extração de estatísticas e visualização dos dados em algo intuitivo e simples. 
+Analise de dados são os processos de transformar dados em informações mais uteis e intuitivas(seja como gráficos, dashboards ou modelos preditivos) que vão auxiliar a empresa na tomada de decisão. 
+Isso é feito pelo uso de técnicas de analise como limpeza de dados, extração de estatísticas e visualização dos dados. 
 
 Em suma, é saber como pegar os dados brutos de uma empresa e transforma-los em algo que auxilie na tomada de decisões futuras a partir de padrões ou tendencias, para isso o analista precisa ter a habilidade de olhar para o passado, interpreta-los no presente e dizer o que pode acontecer e o que pode ser feito no futuro. Isso é feito com diversas técnicas, inclusive, com aprendizado de maquina em analises mais avançadas.
 
@@ -93,8 +92,9 @@ Um ponto importante é que nem todas elas são utilizadas a depender do projeto,
 
 
 ## Quais os conceitos chave da analise de dados:
+[[Pratica baseada em python]]
 
-Os principais conceitos em análise de dados são: Coleta, Limpeza, Extração e visualização de dados. Cada um terá suas técnicas próprias e ramificações, mas tratemos por partes.
+Os principais conceitos em análise de dados são: Coleta, Limpeza, Exploração e visualização de dados. Cada um terá suas técnicas próprias e ramificações, mas tratemos por partes. A ideia é obter um Panorama geral do que cada conceito trata, para que desta forma seja possível entender o que se faz em cada parte e o que deve ser considerado em cada uma.
 
 ### Coleta:
 
@@ -253,10 +253,74 @@ Em resumo, é possível verificar se um dado é bom se ele: Vir de fontes confi�
 ### Exploração:
 [Exploração de dados](https://www.heavy.ai/learn/data-exploration)
 
+#### Introdução:
+
+A exploração de dados é o primeiro passo para efetivamente conseguir informações uteis de um conjunto de dados. Ela usa técnicas estatísticas ou de visualização para extrair pontos como relações entre variáveis, valores discrepantes, tamanho, quantidade, precisão e distribuição dos dados. 
+
+Um ponto importante é que os dados precisam estar limpos e padronizados antes de iniciar a exploração, pois assim as informações adquiridas se tornam mais precisas e corretas. 
+
+Esta exploração pode ser feita manualmente ou de forma automatizada com aprendizado de maquina.
+#### Análise Manual:
+
+A exploração manual dos dados pode ser feita com diversas ferramentas e de diversos modos, desde a criação de Scripts em Python ou R, até a exploração utilizando as planilhas e fórmulas do Excel, com cada ferramenta possuindo um conjunto de fórmulas e técnicas próprias para auxiliar na exploração de dados.
+
+É importante notar que a exploração não se resume somente a números e tabelas, mas tem um forte teor visual, pois é mais simples coletar e expressar as informações dos dados utilizando gráficos e imagens. 
+Isso também permite identificar anomalias e discrepâncias nos dados que poderiam passar desapercebidas em uma tabela, portanto o uso de componentes visuais(como gráficos de barras, Histograma, dispersão, linha, etc.) é tão util quanto o calculo de estatísticas brutas.
+
+#### Analise Automática:
+
+A exploração automática de dados é feita principalmente com aprendizado de máquina, porem, os dados precisam estar bem tratados e validados antes de serem inclusos em um algoritmo deste tipo, visto que ele consumira os dados e, se eles não estiverem bem tratados, o algoritmo pode apresentar erros, tanto no código quanto nos resultados. por isso é importante fazer um pré-processamento e validação dos dados. Para isso, a fonte recomenda estes passos:
+
+* Identificar o papel de cada variável no Dataset
+* Realizar as analises Uni variada ou Bivariada
+* Detectar e tratar valores ausentes ou discrepantes
+##### Analises Uni Variada, bi variada e Multi Variada:
+[Analises de variáveis](https://alexandreramos.blogs.sapo.pt/7901.html)
+
+A analise uni variada é a aplicação de métodos estatísticos descritivos e inferenciais em cada variável separadamente. Ou seja, serão analisadas as variáveis uma a uma, sendo que elas não influenciam diretamente umas as outras. Pode-se ter como exemplo de analise uni Variada os cálculos de moda, média, mediana, variância, etc.
+
+A analise bi variada é a aplicação de métodos estatísticos em duas variáveis, podendo ou não traçar uma relação de causa e efeito entre elas. Alguns exemplos de calculous aplicáveis a duas variáveis são: 
+**[[Regressão linear]]:**
+**teste qui-quadrado**
+**correlação linear de Pearson ou Spearman**.
+
+A analise multi variada é a aplicação de métodos analíticos em três ou mais variáveis dependentes e/ou independentes, podendo ou não ser traçada uma relação de causa e efeito entre elas, sendo que neste tipo, os indivíduos caracterizados com duas ou mais variáveis também podem ser analisados por estes métodos. Apenas estes métodos multivariados permitem analisar como múltiplas variáveis interagem, se relacionam e se influenciam. Alguns dos métodos deste tipo de analise são: 
+
+**Análise de Componentes Principais (PCA)**
+	Reduz a dimensionalidade de um conjunto de dados, transformando um conjunto de variáveis correlacionadas em um conjunto de variáveis não correlacionadas chamadas componentes principais
+
+**Análise de Agrupamento (Cluster Analysis)**
+	Agrupa observações em clusters com base em suas semelhanças, permitindo identificar grupos distintos dentro dos dados
+
+**Análise Fatorial**
+	Reduz um grande número de variáveis em um número menor de fatores latentes, que representam as dimensões subjacentes dos dados.
+
+**Regressão Múltipla**
+	Estima a relação entre uma variável dependente e múltiplas variáveis independentes, permitindo previsões e análises de impacto.
+
+**Análise Discriminante**
+	Classifica observações em grupos pré-definidos com base em um conjunto de variáveis, auxiliando na identificação de critérios de diferenciação entre os grupos.
+#### Linguagens de programação utilizadas na exploração de dados:
+
+As duas principais linguagens utilizadas na exploração dos dados são Python e R, ambas são bem flexíveis mas python geralmente é mais utilizado em Aprendizado de máquina enquanto R é mais utilizado em cálculos estatísticos, entretanto, o uso de uma ou outra depende do projeto e da empresa. 
+As principais bibliotecas utilizadas em python para exploração e visualização de dados são o Pandas e matplotlib, enquanto a linguagem R ja foi criada com o intuito de realizar análises estatísticas, possuindo dentro de si o necessário para manipular os conjuntos de dados e construir visualizações com eles.
+
+#### Menção: Descoberta de dados e Ferramentas de BI
+
+Enquanto a exploração de dados coleta as maiores informações de um conjunto de dados, a descoberta de dados coleta informações relevantes para o negocio neste conjunto, portanto, ela trata da procura de padrões e tendencias, sequencias de eventos, analises temporais, etc. 
+Isso não quer dizer que a descoberta de dados é algo completamente diferente da exploração dos dados, mas sim, que ela é uma exploração mais especifica para o negocio. Alem disso, a exploração/descoberta de dados também pode ser feita com ferramentas de BI, como power Bi e tableau, elas são muito uteis especialmente na questão de visualização, visto que suas principais funcionalidades são voltadas a criação de dashboards e relatórios.
+
+
 ### Visualização:
 [Visualização de dados](https://www.tableau.com/en-gb/learn/articles/data-visualization)
 
+A visualização de dados é referente ao uso de gráficos, dashboards, mapas, etc. para representar as informações retiradas de um conjunto de dados. Ela é especialmente importante por proporcionar uma visão intuitiva e acessível de padrões, tendencias, e outras informações importantes retiradas dos dados. 
 
+No entanto, é importante saber fazer uma boa visualização, ou seja, aquela que ao mesmo tempo que prende a atenção dos clientes ainda consegue expor os dados de maneira acessível e contar uma historia com ele, portanto é recomendável estudar os usos dos principais tipos de gráficos e, principalmente, Storytelling.
+
+#### Visualização interativa de dados:
+
+uma das formas de se transmitir as informações adquiridas de um grande conjunto de dados é através da visualização interativa deles. A forma como as pessoas interagem com os dados influencia como elas os veem e como as decisões serão tomadas, portanto, utilizar ferramentas que permitam uma visualização mais interativa ao invés de estática, pode ajudar na tomada de decisões e no compartilhamento de informações e ideias advindas desses grandes conjuntos de dados. Algumas ferramentas ou bibliotecas que podem ser utilizadas são: PowerBI, Tableu, Dash, plotly, entre outras.
 ## Metodologia da analise de dados
 
 ### Ciclo de análise dos dados

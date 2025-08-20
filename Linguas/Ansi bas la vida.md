@@ -1,4 +1,4 @@
-
+#Linguas #Musica
 C'ètait un triste soir comme il y en a par millier
 Era uma triste noite como uma em milhares (Era uma triste noite como uma por milhares)
 	C'ètait -> Verbo être no pretérito imperfeito(3º pessoa singular) com o pronome demonstrativo *[[Grammarie Française#Pronomes demonstrativos(Ce, Cet, Cette, Ces)|Ce]]* 

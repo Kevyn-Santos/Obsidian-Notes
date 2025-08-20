@@ -127,6 +127,8 @@ Uma das partes mais importantes em análise de dados é a normalização deles, 
 * Uso das fórmulas *to_datetime*, *to_timedelta*, *to_numeric*
 
 
+# Exploração
+
 # Visualização
 
 [Seaborn Tutorial](https://www.youtube.com/watch?v=6GUZXDef2U0)

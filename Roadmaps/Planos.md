@@ -67,8 +67,8 @@ Para cada tópico finalizado antes do tempo, focar mais na pratica do que na exp
 	
 	* Módulo 3 – Limpeza e Preparação de Dados (Semana 5–6)
 		*  Identificação e tratamento de:
-		    - Valores nulos
-		    - Dados duplicados
+		    - ~~Valores nulos~~
+		    - ~~Dados duplicados~~
 		    - Outliers (valores atípicos)
 		
 		- Conversão e formatação de tipos (`dtype`)

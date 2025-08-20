@@ -26,14 +26,12 @@ Para que você consiga os detalhes destas tabelas são necessárias as bases de 
 Uma observação importante: Tabelas fatos não possuem relações entre si, isso porque seus dados se repetem muito e com isso não há alguma informação exclusiva para cada iteração.
 ### Esquemas de relacionamentos - Esquema Estrela
 
-O esquema estrela é uma das formas de se organizar uma serie de relações, ele pega uma tabela informação e a circunda com tabelas de caracterizas em uma formação que lembra uma estrela, por isso do nome, esta é a técnica mais útil para organização de tabelas. Mas, não são necessárias muitas tabelas para este padrão, três já são o bastante para formar relações esquema estrela.
-
-Resumindo, um esquema estrela será uma forma de organizar relações, onde  as tabelas fato ficam no centro, sendo circundadas por tabelas de características que se relacionam com ela.
+O esquema estrela é uma das formas de se organizar uma serie de relações, ele pega uma tabela fato e a circunda com tabelas de caracterizas em uma formação que lembra uma estrela, por isso do nome, esta é a técnica mais útil para organização de tabelas. Mas, não são necessárias muitas tabelas para este padrão, três já são o bastante para formar relações esquema estrela.
 
 
 ![[Pasted image 20241229192816.png]]
 
-A imagem acima é um exemplo de esquema estrela, não esta muito na forma de uma estrela, mas ele fica neste padrão. Aqui a tabela de clientes seria a principal tabela Fato, enquanto todas as outras seriam tabelas adjacentes que caracterizam, ou dão informações, á tabela de clientes. 
+A imagem acima é um exemplo de esquema estrela, não esta muito na forma de uma estrela, mas ele fica neste padrão. Aqui a tabela de clientes é a principal tabela Fato, enquanto todas as outras são tabelas adjacentes que caracterizam, ou dão informações, para a tabela de clientes. 
 ## **FUNÇÕES DAX**
 
 ### O que são:
