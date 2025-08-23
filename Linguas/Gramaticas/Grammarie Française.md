@@ -203,7 +203,7 @@ Em Frances temos dois tipos de perguntas: **As fechadas**(Aquelas que esperam um
 Para o primeiro grupo temos quatro variações, sendo que três são mais quotidianas e a quarta é mais formal e literária.
 Para o segundo grupo temos o uso de palavras de questionamento, p.ex, o que, como, onde, quando, porque, quem, etc.
 
-### Frases sim/não
+### Perguntas Fechadas(Sim/Não)
 
 Aqui temos quatro estruturas principais:
 
@@ -235,6 +235,10 @@ Aqui temos quatro estruturas principais:
 	
 	* Caso a frase invertida contenha um sujeito como substantivo, então tanto o sujeito quanto o pronome serão usados na frase, sendo que o pronome será invertido.
 		P.ex: Ce monsieur est-il français? / Ce monsieur n'est-il pas français? (Este senhor é Francês? / Este senhor não é francês?)
+
+### Perguntas Abertas
+
+
 
 ## Os três grupos verbais e suas conjugações
 
